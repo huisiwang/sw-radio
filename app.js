@@ -25,7 +25,6 @@ function getCurrentHHMM() {
 function isTimeMatch(timeStr, targetNum) {
   if (!timeStr) return false;
 
-  // 抓取四碼數字 (如 0000-0110、2300-0100)
   const match = timeStr.match(/(\d{4})\s*-\s*(\d{4})/);
   if (!match || match.length < 3) return false;
 
@@ -151,22 +150,32 @@ function updateClock() {
 }
 
 // ==========================================
-// 5. 資料載入 (Fetch data.json) 與事件綁定
+// 5. 資料載入 (Fetch data.json 相對路徑解析)
 // ==========================================
 async function loadData() {
   try {
-    const response = await fetch('./data.json');
+    // 依據目前 HTML 所在完整 URL 相對解析 data.json，避免 GitHub Pages 子路徑差異
+    const jsonUrl = new URL('data.json', window.location.href).href;
+    const response = await fetch(jsonUrl, { cache: 'no-cache' });
+    
     if (!response.ok) {
-      throw new Error(`HTTP 錯誤! 狀態碼: ${response.status}`);
+      throw new Error(`HTTP ${response.status} (${response.statusText})`);
     }
-    radioData = await response.json();
+
+    const text = await response.text();
+    try {
+      radioData = JSON.parse(text);
+    } catch (parseErr) {
+      throw new Error(`JSON 語法解析失敗: ${parseErr.message}`);
+    }
+
     initFilters();
     updateClock();
     applyFilter();
   } catch (error) {
     console.error('無法載入 data.json:', error);
     alertBanner.style.display = 'block';
-    alertBanner.textContent = '❌ 無法載入電台資料 (data.json)，請確認檔案路徑。';
+    alertBanner.textContent = `❌ 無法載入資料: ${error.message}。請檢查檔案大小寫或 JSON 語法。`;
   }
 }
 
