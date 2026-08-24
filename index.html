@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>短波電台隨身查</title>
+    <!-- iOS PWA 支援 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #00adb5;
+            --alert-color: #ff5722;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 16px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin: 0 0 5px 0;
+        }
+        .time-display {
+            font-size: 0.9rem;
+            color: #888;
+        }
+        .filter-group {
+            background-color: var(--card-bg);
+            padding: 14px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        label {
+            display: block;
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-bottom: 4px;
+            margin-top: 10px;
+        }
+        label:first-child { margin-top: 0; }
+        select {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px; /* 💡 防止 iOS 自動放大網頁 */
+            background-color: #2c2c2c;
+            color: #fff;
+            border: 1px solid #444;
+            border-radius: 8px;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+        }
+        .alert-box {
+            background-color: rgba(255, 87, 34, 0.15);
+            border-left: 4px solid var(--alert-color);
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            font-size: 0.9rem;
+            display: none;
+        }
+        .list-container {
+            display: grid;
+            gap: 12px;
+        }
+        .radio-card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 14px;
+            border: 1px solid #2a2a2a;
+        }
+        .card-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #bbb;
+            margin-bottom: 4px;
+        }
+        .frequency-badge {
+            display: inline-block;
+            background-color: #2a3a3a;
+            color: var(--accent-color);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        .region-text {
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>短波電台隨身查</h1>
+        <div class="time-display" id="currentTime">手機時間：載入中...</div>
+    </div>
+
+    <div class="filter-group">
+        <label for="filterTime">時段篩選</label>
+        <select id="filterTime">
+            <option value="auto">現在時間 (自動匹配)</option>
+            <option value="all">所有時段</option>
+        </select>
+
+        <label for="filterLang">語言</label>
+        <select id="filterLang">
+            <option value="all">全部語言</option>
+        </select>
+
+        <label for="filterStation">電台</label>
+        <select id="filterStation">
+            <option value="all">全部電台</option>
+        </select>
+    </div>
+
+    <div class="alert-box" id="alertBox">
+        當前組合或時間查無廣播，已為您顯示全部清單。
+    </div>
+
+    <div class="list-container" id="listContainer">
+        <!-- 資料會由 JavaScript 動態渲染到這裡 -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
