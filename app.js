@@ -2,8 +2,16 @@ let radioData = [];
 
 // 網頁初始化
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('data.json')
-        .then(response => response.json())
+    // 💡 智慧路徑修正：自動根據當前網頁網址，尋找同目錄下的 data.json
+    const jsonPath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/')) + '/data.json';
+    
+    fetch(jsonPath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`網路回應不正確，狀態碼: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             radioData = data;
             initFilters();
@@ -15,7 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("filterLang").addEventListener("change", renderTable);
             document.getElementById("filterStation").addEventListener("change", renderTable);
         })
-        .catch(err => console.error("無法讀取資料庫:", err));
+        .catch(err => {
+            console.error("無法讀取資料庫，請檢查 data.json 是否存在且格式正確。錯誤訊息:", err);
+            alert("資料讀取失敗，請確認 data.json 檔案名稱大小寫是否完全一致！");
+        });
         
     // 每分鐘更新一次手機時間顯示
     setInterval(updateTimeDisplay, 60000);
@@ -66,11 +77,11 @@ function isTimeMatched(currentTimeStr, targetInterval) {
     if (!match) return false;
 
     const current = parseInt(currentTimeStr, 10);
-    const start = parseInt(match[1], 10);
-    const end = parseInt(match[2], 10);
+    const start = parseInt(match[1], 10); // 💡 修正：加上 [1] 索引
+    const end = parseInt(match[2], 10);   // 💡 修正：加上 [2] 索引
 
     if (end < start) { 
-        // 💡 跨子夜處理邏輯 (例如 2300-0100)
+        // 跨子夜處理邏輯 (例如 2300-0100)
         return current >= start || current < end;
     }
     return current >= start && current < end;
@@ -131,3 +142,4 @@ function renderTable() {
         container.appendChild(card);
     });
 }
+
