@@ -13,7 +13,28 @@ const listCount = document.getElementById('listCount');
 const currentClock = document.getElementById('currentClock');
 
 // ==========================================
-// 2. 時間轉換與跨午夜匹配邏輯
+// 2. 嚴格過濾雜訊項目 (排除 data.json 等非電台物件)
+// ==========================================
+function isValidItem(item) {
+  if (!item || typeof item !== 'object') return false;
+
+  // 如果物件含有 filename 或 name (例如檔案元資料)，直接排除
+  if ('filename' in item || 'name' in item) return false;
+
+  const station = String(item.station || '').trim();
+  const freq = String(item.frequency || '').trim();
+
+  // 若電台名稱包含 data.json 或 json 檔名雜訊，直接排除
+  if (station.toLowerCase().includes('.json') || station.toLowerCase().includes('data.json')) {
+    return false;
+  }
+
+  // 必須具有電台名稱且不能全為空
+  return station.length > 0;
+}
+
+// ==========================================
+// 3. 時間轉換與跨午夜匹配邏輯
 // ==========================================
 function getCurrentHHMM() {
   const now = new Date();
@@ -25,7 +46,7 @@ function getCurrentHHMM() {
 function isTimeMatch(timeStr, targetNum) {
   if (!timeStr) return false;
 
-  const match = timeStr.match(/(\d{4})\s*-\s*(\d{4})/);
+  const match = String(timeStr).match(/(\d{4})\s*-\s*(\d{4})/);
   if (!match || match.length < 3) return false;
 
   const start = parseInt(match[1], 10);
@@ -41,15 +62,8 @@ function isTimeMatch(timeStr, targetNum) {
 }
 
 // ==========================================
-// 3. UI 初始化與選項生成 (嚴格過濾雜訊)
+// 4. UI 初始化與選項生成
 // ==========================================
-function isValidItem(item) {
-  if (!item || typeof item !== 'object') return false;
-  // 過濾掉含有檔名或空資料的雜訊項目
-  if (item.filename || item.name) return false;
-  return Boolean(item.station || item.frequency);
-}
-
 function initFilters() {
   const times = new Set();
   const langs = new Set();
@@ -57,16 +71,24 @@ function initFilters() {
 
   radioData.forEach(item => {
     if (!isValidItem(item)) return;
-    if (item.time && item.time.trim()) times.add(item.time.trim());
-    if (item.language && item.language.trim()) langs.add(item.language.trim());
-    if (item.station && item.station.trim()) stations.add(item.station.trim());
+    if (item.time && String(item.time).trim()) times.add(String(item.time).trim());
+    if (item.language && String(item.language).trim()) langs.add(String(item.language).trim());
+    if (item.station && String(item.station).trim()) stations.add(String(item.station).trim());
   });
 
-  // 清除並重建 timeSelect (保留 AUTO 與 ALL)
-  timeSelect.innerHTML = `
-    <option value="AUTO">現在時間 (自動匹配)</option>
-    <option value="ALL">全部時段</option>
-  `;
+  // 重建時段選單：強制保留「現在時間」與「全部時段」
+  timeSelect.innerHTML = '';
+  
+  const optAuto = document.createElement('option');
+  optAuto.value = 'AUTO';
+  optAuto.textContent = '現在時間 (自動匹配)';
+  timeSelect.appendChild(optAuto);
+
+  const optAll = document.createElement('option');
+  optAll.value = 'ALL';
+  optAll.textContent = '全部時段';
+  timeSelect.appendChild(optAll);
+
   times.forEach(t => {
     const opt = document.createElement('option');
     opt.value = t;
@@ -74,7 +96,7 @@ function initFilters() {
     timeSelect.appendChild(opt);
   });
 
-  // 重建 langSelect
+  // 重建語言選單
   langSelect.innerHTML = '<option value="ALL">全部語言</option>';
   langs.forEach(l => {
     const opt = document.createElement('option');
@@ -83,7 +105,7 @@ function initFilters() {
     langSelect.appendChild(opt);
   });
 
-  // 重建 stationSelect
+  // 重建電台選單
   stationSelect.innerHTML = '<option value="ALL">全部電台</option>';
   stations.forEach(s => {
     const opt = document.createElement('option');
@@ -120,7 +142,7 @@ function renderList(data) {
 }
 
 // ==========================================
-// 4. 篩選判斷與自動聯動
+// 5. 篩選判斷與查無結果處理
 // ==========================================
 function applyFilter() {
   const selectedTime = timeSelect.value;
@@ -140,15 +162,15 @@ function applyFilter() {
     } else if (selectedTime === 'ALL') {
       matchT = true;
     } else {
-      matchT = (item.time && item.time.trim() === selectedTime);
+      matchT = (item.time && String(item.time).trim() === selectedTime);
     }
 
     if (selectedLang !== 'ALL') {
-      matchL = (item.language && item.language.trim() === selectedLang);
+      matchL = (item.language && String(item.language).trim() === selectedLang);
     }
 
     if (selectedStation !== 'ALL') {
-      matchS = (item.station && item.station.trim() === selectedStation);
+      matchS = (item.station && String(item.station).trim() === selectedStation);
     }
 
     return matchT && matchL && matchS;
@@ -179,11 +201,11 @@ function updateClock() {
 }
 
 // ==========================================
-// 5. 資料載入與事件聯動處理
+// 6. 資料載入與事件聯動
 // ==========================================
 async function loadData() {
   try {
-    const jsonUrl = new URL('data.json', window.location.href).href;
+    const jsonUrl = new URL('data.json?t=' + Date.now(), window.location.href).href;
     const response = await fetch(jsonUrl, { cache: 'no-cache' });
     
     if (!response.ok) {
@@ -195,7 +217,6 @@ async function loadData() {
     const sanitizedText = text.replace(/,\s*([\]}])/g, '$1');
 
     const rawData = JSON.parse(sanitizedText);
-    // 嚴格過濾雜訊物件 (排除帶有 filename/name 欄位的工具 metadata)
     radioData = Array.isArray(rawData) ? rawData.filter(isValidItem) : [];
 
     initFilters();
@@ -208,16 +229,16 @@ async function loadData() {
   }
 }
 
-// 時段手動切換
+// 時段選單手動變更
 timeSelect.addEventListener('change', applyFilter);
 
-// 選擇「語言」時，自動切換至「全部時段」並篩選
+// 切換「語言」時，自動切換至「全部時段」
 langSelect.addEventListener('change', () => {
   timeSelect.value = 'ALL';
   applyFilter();
 });
 
-// 選擇「電台」時，自動切換至「全部時段」並篩選
+// 切換「電台」時，自動切換至「全部時段」
 stationSelect.addEventListener('change', () => {
   timeSelect.value = 'ALL';
   applyFilter();
