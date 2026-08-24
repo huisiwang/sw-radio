@@ -31,27 +31,42 @@ function isTimeMatch(timeStr, targetNum) {
   const start = parseInt(match[1], 10);
   const end = parseInt(match[2], 10);
 
+  // 跨午夜判斷 (如 2300-0100)
   if (start > end) {
     return targetNum >= start || targetNum <= end;
   }
 
+  // 一般時段判斷 (如 1410-1430)
   return targetNum >= start && targetNum <= end;
 }
 
 // ==========================================
-// 3. UI 初始化與選項生成
+// 3. UI 初始化與選項生成 (嚴格過濾雜訊)
 // ==========================================
+function isValidItem(item) {
+  if (!item || typeof item !== 'object') return false;
+  // 過濾掉含有檔名或空資料的雜訊項目
+  if (item.filename || item.name) return false;
+  return Boolean(item.station || item.frequency);
+}
+
 function initFilters() {
   const times = new Set();
   const langs = new Set();
   const stations = new Set();
 
   radioData.forEach(item => {
-    if (item.time) times.add(item.time.trim());
-    if (item.language) langs.add(item.language.trim());
-    if (item.station) stations.add(item.station.trim());
+    if (!isValidItem(item)) return;
+    if (item.time && item.time.trim()) times.add(item.time.trim());
+    if (item.language && item.language.trim()) langs.add(item.language.trim());
+    if (item.station && item.station.trim()) stations.add(item.station.trim());
   });
 
+  // 清除並重建 timeSelect (保留 AUTO 與 ALL)
+  timeSelect.innerHTML = `
+    <option value="AUTO">現在時間 (自動匹配)</option>
+    <option value="ALL">全部時段</option>
+  `;
   times.forEach(t => {
     const opt = document.createElement('option');
     opt.value = t;
@@ -59,6 +74,8 @@ function initFilters() {
     timeSelect.appendChild(opt);
   });
 
+  // 重建 langSelect
+  langSelect.innerHTML = '<option value="ALL">全部語言</option>';
   langs.forEach(l => {
     const opt = document.createElement('option');
     opt.value = l;
@@ -66,6 +83,8 @@ function initFilters() {
     langSelect.appendChild(opt);
   });
 
+  // 重建 stationSelect
+  stationSelect.innerHTML = '<option value="ALL">全部電台</option>';
   stations.forEach(s => {
     const opt = document.createElement('option');
     opt.value = s;
@@ -76,7 +95,9 @@ function initFilters() {
 
 function renderList(data) {
   stationContainer.innerHTML = '';
-  data.forEach(item => {
+  const validList = data.filter(isValidItem);
+
+  validList.forEach(item => {
     const card = document.createElement('div');
     card.className = 'station-card';
     card.innerHTML = `
@@ -95,11 +116,11 @@ function renderList(data) {
     `;
     stationContainer.appendChild(card);
   });
-  listCount.textContent = `${data.length} 個頻率`;
+  listCount.textContent = `${validList.length} 個頻率`;
 }
 
 // ==========================================
-// 4. 篩選判斷與查無結果處理
+// 4. 篩選判斷與自動聯動
 // ==========================================
 function applyFilter() {
   const selectedTime = timeSelect.value;
@@ -107,13 +128,17 @@ function applyFilter() {
   const selectedStation = stationSelect.value;
   const currentNum = getCurrentHHMM();
 
-  const filtered = radioData.filter(item => {
+  const validData = radioData.filter(isValidItem);
+
+  const filtered = validData.filter(item => {
     let matchT = true;
     let matchL = true;
     let matchS = true;
 
     if (selectedTime === 'AUTO') {
       matchT = isTimeMatch(item.time, currentNum);
+    } else if (selectedTime === 'ALL') {
+      matchT = true;
     } else {
       matchT = (item.time && item.time.trim() === selectedTime);
     }
@@ -132,10 +157,16 @@ function applyFilter() {
   if (filtered.length === 0) {
     alertBanner.style.display = 'block';
     listTitle.textContent = '全部電台清單 (查無符合結果)';
-    renderList(radioData);
+    renderList(validData);
   } else {
     alertBanner.style.display = 'none';
-    listTitle.textContent = selectedTime === 'AUTO' ? '現正播音電台' : '篩選結果';
+    if (selectedTime === 'AUTO') {
+      listTitle.textContent = '現正播音電台';
+    } else if (selectedTime === 'ALL') {
+      listTitle.textContent = '全部時段電台';
+    } else {
+      listTitle.textContent = '篩選結果';
+    }
     renderList(filtered);
   }
 }
@@ -148,7 +179,7 @@ function updateClock() {
 }
 
 // ==========================================
-// 5. 資料載入 (Fetch data.json 並自動清理隱藏字符/BOM)
+// 5. 資料載入與事件聯動處理
 // ==========================================
 async function loadData() {
   try {
@@ -160,21 +191,12 @@ async function loadData() {
     }
 
     let text = await response.text();
-    
-    // 1. 去除開頭 UTF-8 BOM (\uFEFF)
     text = text.replace(/^\uFEFF/, '').trim();
-
-    // 2. 移除結尾多餘逗號以增加容錯能力 (如 `, ]` 或 `, }`)
     const sanitizedText = text.replace(/,\s*([\]}])/g, '$1');
 
-    try {
-      radioData = JSON.parse(sanitizedText);
-    } catch (parseErr) {
-      // 印出詳細出錯位置附近的字元供除錯
-      console.error('原始文本 (前 300 字):', text.slice(0, 300));
-      console.error('原始文本 (後 300 字):', text.slice(-300));
-      throw new Error(`第 87 行或末尾語法錯誤: ${parseErr.message}`);
-    }
+    const rawData = JSON.parse(sanitizedText);
+    // 嚴格過濾雜訊物件 (排除帶有 filename/name 欄位的工具 metadata)
+    radioData = Array.isArray(rawData) ? rawData.filter(isValidItem) : [];
 
     initFilters();
     updateClock();
@@ -182,13 +204,24 @@ async function loadData() {
   } catch (error) {
     console.error('無法載入 data.json:', error);
     alertBanner.style.display = 'block';
-    alertBanner.textContent = `❌ 無法載入資料: ${error.message}。請確認 data.json 結尾格式。`;
+    alertBanner.textContent = `❌ 無法載入資料: ${error.message}`;
   }
 }
 
+// 時段手動切換
 timeSelect.addEventListener('change', applyFilter);
-langSelect.addEventListener('change', applyFilter);
-stationSelect.addEventListener('change', applyFilter);
+
+// 選擇「語言」時，自動切換至「全部時段」並篩選
+langSelect.addEventListener('change', () => {
+  timeSelect.value = 'ALL';
+  applyFilter();
+});
+
+// 選擇「電台」時，自動切換至「全部時段」並篩選
+stationSelect.addEventListener('change', () => {
+  timeSelect.value = 'ALL';
+  applyFilter();
+});
 
 // 初始化
 loadData();
