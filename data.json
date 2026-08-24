@@ -1,87 +1,730 @@
 [
-  { "station": "Akashvani 印度德里广播电台", "time": "0745-0915", "frequency": "15410", "language": "普通話", "region": "未註明" },
-  { "station": "Akashvani 印度德里广播电台", "time": "1830-2000", "frequency": "15410", "language": "普通話", "region": "未註明" },
-  { "station": "Akashvani 印度德里广播电台", "time": "0900-1030", "frequency": "11710", "language": "藏語", "region": "未註明" },
-  { "station": "Akashvani 印度德里广播电台", "time": "1845-2015", "frequency": "11865", "language": "藏語", "region": "未註明" },
-  { "station": "KBS World Radio 韩国国际广播电台", "time": "0700-0800", "frequency": "7215", "language": "普通話", "region": "中國(重播前一天節目)" },
-  { "station": "KBS World Radio 韩国国际广播电台", "time": "1900-2000", "frequency": "1557", "language": "普通話", "region": "華南" },
-  { "station": "KBS World Radio 韩国国际广播电台", "time": "1900-2000", "frequency": "6095", "language": "普通話", "region": "中國" },
-  { "station": "KBS World Radio 韩国国际广播电台", "time": "1930-2030", "frequency": "9770", "language": "普通話", "region": "東南亞" },
-  { "station": "KBS World Radio 韩国国际广播电台", "time": "2000-2100", "frequency": "6095", "language": "普通話", "region": "中國" },
-  { "station": "KBS World Radio 韩国国际广播电台", "time": "2100-2200", "frequency": "1170", "language": "普通話", "region": "不定向" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "1410-1430", "frequency": "15195", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "1800-1820", "frequency": "11855", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "1840-1850", "frequency": "11855", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "1920-1940", "frequency": "11660", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "2000-2020", "frequency": "11660", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "2040-2100", "frequency": "11660", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "2120-2140", "frequency": "11660", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "2200-2220", "frequency": "9560", "language": "普通話", "region": "未註明" },
-  { "station": "NHK World-Japan 日本国际广播电台", "time": "2330-2350", "frequency": "11915", "language": "普通話", "region": "未註明" },
-  { "station": "REE 西班牙对外广播电台", "time": "0430-0500(週二)", "frequency": "15390", "language": "普通話", "region": "西非和南大西洋" },
-  { "station": "REE 西班牙对外广播电台", "time": "0430-0500(週二)", "frequency": "15520", "language": "普通話", "region": "中東和東非" },
-  { "station": "RFA 自由亚洲电台", "time": "0630-0645", "frequency": "9455", "language": "普通話", "region": "未註明" },
-  { "station": "RFA 自由亚洲电台", "time": "0900-0915", "frequency": "7580", "language": "維吾爾語", "region": "未註明" },
-  { "station": "RFA 自由亚洲电台", "time": "0700-0715", "frequency": "7530", "language": "藏語", "region": "未註明" },
-  { "station": "RRI 罗马尼亚国际广播电台", "time": "1200-1230", "frequency": "21470", "language": "普通話", "region": "未註明" },
-  { "station": "RRI 罗马尼亚国际广播电台", "time": "1200-1230", "frequency": "17760", "language": "普通話", "region": "備用(昨日節目重播)" },
-  { "station": "RRI 罗马尼亚国际广播电台", "time": "2030-2100", "frequency": "17760", "language": "普通話", "region": "DRM" },
-  { "station": "RRI 罗马尼亚国际广播电台", "time": "2030-2100", "frequency": "17530", "language": "普通話", "region": "備用" },
-  { "station": "RRI-VOI 印度尼西亚之声", "time": "1900-2000", "frequency": "3325", "language": "普通話", "region": "未註明" },
-  { "station": "RRI-VOI 印度尼西亚之声", "time": "1900-2000", "frequency": "4755", "language": "普通話", "region": "未註明" },
-  { "station": "RRI-VOI 印度尼西亚之声", "time": "2300-2400", "frequency": "3325", "language": "普通話", "region": "未註明" },
-  { "station": "RRI-VOI 印度尼西亚之声", "time": "2300-2400", "frequency": "4755", "language": "普通話", "region": "未註明" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "0000-0110(週一至五)", "frequency": "6075", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "0000-0110(週一至五)", "frequency": "6145", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "0700-0730", "frequency": "9900", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "0700-0730", "frequency": "6105", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1500-1600", "frequency": "1098", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1500-1600", "frequency": "11815", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1700-1800", "frequency": "1557", "language": "普通話", "region": "華北/華中/華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1700-1800", "frequency": "9595", "language": "普通話", "region": "華北/華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1800-1900", "frequency": "1557", "language": "普通話", "region": "華北/華中/華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1800-1900", "frequency": "9595", "language": "普通話", "region": "華北/華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1800-1900", "frequency": "11885", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1800-1900", "frequency": "6180", "language": "普通壓", "region": "華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1800-1900", "frequency": "9660", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1900-2000", "frequency": "6150", "language": "普通話", "region": "華中/華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "1900-2000", "frequency": "11885", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "2200-2400(週一至五)", "frequency": "6075", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "2200-2400(週一至五)", "frequency": "6145", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "2200-2330(週六日)", "frequency": "6075", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(大陆网)", "time": "2200-2330(週六日)", "frequency": "6145", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "0000-0100", "frequency": "1557", "language": "普通話", "region": "華北/華中/華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "0000-0100", "frequency": "1098", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "0600-0800", "frequency": "9900", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "0600-0800", "frequency": "6075", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "0600-0800", "frequency": "6105", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1200-1400", "frequency": "11815", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1800-1900", "frequency": "9555", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1800-1900", "frequency": "9885", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1800-1900", "frequency": "6105", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1900-2000", "frequency": "9555", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1900-2000", "frequency": "9680", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1900-2000", "frequency": "9885", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1900-2000", "frequency": "11615", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1900-2000", "frequency": "6105", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1900-2000", "frequency": "6180", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "1900-2000", "frequency": "9660", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2000-2100", "frequency": "1557", "language": "普通話", "region": "華北/華中/華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2000-2100", "frequency": "9555", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2000-2100", "frequency": "9680", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2000-2100", "frequency": "9885", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2000-2100", "frequency": "6180", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2000-2100", "frequency": "9660", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2100-2200", "frequency": "1557", "language": "普通話", "region": "華北/華中/華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2100-2200", "frequency": "9680", "language": "普通話", "region": "華北" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2100-2200", "frequency": "7430", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2100-2200", "frequency": "6105", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2100-2200", "frequency": "6180", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2100-2200", "frequency": "9660", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2200-2300", "frequency": "1557", "language": "普通話", "region": "華北/華中/華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2200-2300", "frequency": "1098", "language": "普通話", "region": "華中" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2200-2300", "frequency": "6180", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2200-2300", "frequency": "9660", "language": "普通話", "region": "華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2300-2400", "frequency": "1557", "language": "普通話", "region": "華北/華中/華南" },
-  { "station": "RTI 中央广播电台(华语网)", "time": "2300-2400", "frequency": "7300", "language": "普通話", "region": "華北" },
+  {
+    "station": "Akashvani 印度德里广播电台",
+    "time": "0745-0915",
+    "frequency": "15410",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "Akashvani 印度德里广播电台",
+    "time": "1830-2000",
+    "frequency": "15410",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "Akashvani 印度德里广播电台",
+    "time": "0900-1030",
+    "frequency": "11710",
+    "language": "藏語",
+    "region": ""
+  },
+  {
+    "station": "Akashvani 印度德里广播电台",
+    "time": "1845-2015",
+    "frequency": "11865",
+    "language": "藏語",
+    "region": ""
+  },
+  {
+    "station": "KBS World Radio 韩国国际广播电台",
+    "time": "0700-0800",
+    "frequency": "7215",
+    "language": "普通話",
+    "region": "中國(重播前一天節目)"
+  },
+  {
+    "station": "KBS World Radio 韩国国际广播电台",
+    "time": "1900-2000",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "KBS World Radio 韩国国际广播电台",
+    "time": "1900-2000",
+    "frequency": "6095",
+    "language": "普通話",
+    "region": "中國"
+  },
+  {
+    "station": "KBS World Radio 韩国国际广播电台",
+    "time": "1930-2030",
+    "frequency": "9770",
+    "language": "普通話",
+    "region": "東南亞"
+  },
+  {
+    "station": "KBS World Radio 韩国国际广播电台",
+    "time": "2000-2100",
+    "frequency": "6095",
+    "language": "普通話",
+    "region": "中國"
+  },
+  {
+    "station": "KBS World Radio 韩国国际广播电台",
+    "time": "2100-2200",
+    "frequency": "1170",
+    "language": "普通話",
+    "region": "不定向"
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "1410-1430",
+    "frequency": "15195",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "1800-1820",
+    "frequency": "11855",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "1840-1850",
+    "frequency": "11855",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "1920-1940",
+    "frequency": "11660",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "2000-2020",
+    "frequency": "11660",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "2040-2100",
+    "frequency": "11660",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "2120-2140",
+    "frequency": "11660",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "2200-2220",
+    "frequency": "9560",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "NHK World-Japan 日本国际广播电台",
+    "time": "2330-2350",
+    "frequency": "11915",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "REE 西班牙对外广播电台",
+    "time": "0430-0500(週二)",
+    "frequency": "15390",
+    "language": "普通話",
+    "region": "西非和南大西洋"
+  },
+  {
+    "station": "REE 西班牙对外广播电台",
+    "time": "0430-0500(週二)",
+    "frequency": "15520",
+    "language": "普通話",
+    "region": "中東和東非"
+  },
+  {
+    "station": "RFA 自由亚洲电台",
+    "time": "0630-0645",
+    "frequency": "9455",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "RFA 自由亚洲电台",
+    "time": "0900-0915",
+    "frequency": "7580",
+    "language": "維吾爾語",
+    "region": ""
+  },
+  {
+    "station": "RFA 自由亚洲电台",
+    "time": "0700-0715",
+    "frequency": "7530",
+    "language": "藏語",
+    "region": ""
+  },
+  {
+    "station": "RRI 罗马尼亚国际广播电台",
+    "time": "1200-1230",
+    "frequency": "21470",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "RRI 罗马尼亚国际广播电台",
+    "time": "1200-1230",
+    "frequency": "17760",
+    "language": "普通話",
+    "region": "備用(昨日節目重播)"
+  },
+  {
+    "station": "RRI 罗马尼亚国际广播电台",
+    "time": "2030-2100",
+    "frequency": "17760",
+    "language": "普通話",
+    "region": "DRM"
+  },
+  {
+    "station": "RRI 罗马尼亚国际广播电台",
+    "time": "2030-2100",
+    "frequency": "17530",
+    "language": "普通話",
+    "region": "備用"
+  },
+  {
+    "station": "RRI-VOI 印度尼西亚之声",
+    "time": "1900-2000",
+    "frequency": "3325",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "RRI-VOI 印度尼西亚之声",
+    "time": "1900-2000",
+    "frequency": "4755",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "RRI-VOI 印度尼西亚之声",
+    "time": "2300-2400",
+    "frequency": "3325",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "RRI-VOI 印度尼西亚之声",
+    "time": "2300-2400",
+    "frequency": "4755",
+    "language": "普通話",
+    "region": ""
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "0000-0110(週一至五)",
+    "frequency": "6075",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "0000-0110(週一至五)",
+    "frequency": "6145",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "0700-0730",
+    "frequency": "9900",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "0700-0730",
+    "frequency": "6105",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1500-1600",
+    "frequency": "1098",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1500-1600",
+    "frequency": "11815",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1700-1800",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華北/華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1700-1800",
+    "frequency": "9595",
+    "language": "普通話",
+    "region": "華北/華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1800-1900",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華北/華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1800-1900",
+    "frequency": "9595",
+    "language": "普通話",
+    "region": "華北/華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1800-1900",
+    "frequency": "11885",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1800-1900",
+    "frequency": "6180",
+    "language": "普通壓",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1800-1900",
+    "frequency": "9660",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1900-2000",
+    "frequency": "6150",
+    "language": "普通話",
+    "region": "華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "1900-2000",
+    "frequency": "11885",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "2200-2400(週一至五)",
+    "frequency": "6075",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "2200-2400(週一至五)",
+    "frequency": "6145",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "2200-2330(週六日)",
+    "frequency": "6075",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(大陆网)",
+    "time": "2200-2330(週六日)",
+    "frequency": "6145",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "0000-0100",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華北/華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "0000-0100",
+    "frequency": "1098",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "0600-0800",
+    "frequency": "9900",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "0600-0800",
+    "frequency": "6075",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "0600-0800",
+    "frequency": "6105",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "filename: data.json",
+    "time": "",
+    "frequency": "",
+    "language": "",
+    "region": ""
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1200-1400",
+    "frequency": "11815",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1800-1900",
+    "frequency": "9555",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1800-1900",
+    "frequency": "9885",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1800-1900",
+    "frequency": "6105",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1900-2000",
+    "frequency": "9555",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1900-2000",
+    "frequency": "9680",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1900-2000",
+    "frequency": "9885",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1900-2000",
+    "frequency": "11615",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1900-2000",
+    "frequency": "6105",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1900-2000",
+    "frequency": "6180",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "1900-2000",
+    "frequency": "9660",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2000-2100",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華北/華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2000-2100",
+    "frequency": "9555",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2000-2100",
+    "frequency": "9680",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2000-2100",
+    "frequency": "9885",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2000-2100",
+    "frequency": "6180",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2000-2100",
+    "frequency": "9660",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2100-2200",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華北/華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2100-2200",
+    "frequency": "9680",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2100-2200",
+    "frequency": "7430",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2100-2200",
+    "frequency": "6105",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2100-2200",
+    "frequency": "6180",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2100-2200",
+    "frequency": "9660",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2200-2300",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華北/華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2200-2300",
+    "frequency": "1098",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2200-2300",
+    "frequency": "6180",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2200-2300",
+    "frequency": "9660",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2300-2400",
+    "frequency": "1557",
+    "language": "普通話",
+    "region": "華北/華中/華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2300-2400",
+    "frequency": "7300",
+    "language": "普通話",
+    "region": "華北"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2300-2400",
+    "frequency": "1098",
+    "language": "普通話",
+    "region": "華中"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2300-2400",
+    "frequency": "6180",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台(华语网)",
+    "time": "2300-2400",
+    "frequency": "9660",
+    "language": "普通話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "1200-1230",
+    "frequency": "15320",
+    "language": "粵語",
+    "region": "東南亞"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "1800-1830",
+    "frequency": "13825",
+    "language": "粵語",
+    "region": ""
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "1800-1830",
+    "frequency": "12065",
+    "language": "粵語",
+    "region": "東南亞"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2000-2030",
+    "frequency": "6105",
+    "language": "粵語",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2000-2030",
+    "frequency": "9735",
+    "language": "粵語",
+    "region": "東南亞"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2300-2330",
+    "frequency": "9540",
+    "language": "粵語",
+    "region": "東南亞"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "1230-1300",
+    "frequency": "15320",
+    "language": "客家話",
+    "region": "東南亞"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "1830-1900",
+    "frequency": "13825",
+    "language": "客家話",
+    "region": ""
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "1830-1900",
+    "frequency": "12065",
+    "language": "客家話",
+    "region": "東南亞"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2030-2100",
+    "frequency": "6105",
+    "language": "客家話",
+    "region": "華南"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2030-2100",
+    "frequency": "9735",
+    "language": "客家話",
+    "region": "東南亞"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2230-2300(週一至五)",
+    "frequency": "738",
+    "language": "客家話",
+    "region": "中波(MW)"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2230-2300(週一至五)",
+    "frequency": "1143",
+    "language": "客家話",
+    "region": "中波(MW)"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2230-2300(週一至五)",
+    "frequency": "1593",
+    "language": "客家話",
+    "region": "中波(MW)"
+  },
+  {
+    "station": "RTI 中央广播电台",
+    "time": "2330-2400",
+    "frequency": "9540",
+    "language": "客家話",
+    "region": "東南亞"
+  }
 ]
