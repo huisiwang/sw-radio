@@ -36,8 +36,6 @@ function getCurrentHHMM() {
   return parseInt(hh + mm, 10);
 }
 
-// 解析時段字串中的起訖時間 (自動忽略星期幾等附帶文字)
-// 例如 "1700-1800"、"2230-2300(週一至五)" 皆能解析
 function parseTimeRange(timeStr) {
   if (!timeStr) return null;
   const match = String(timeStr).match(/(\d{4})\s*-\s*(\d{4})/);
@@ -46,31 +44,25 @@ function parseTimeRange(timeStr) {
   return {
     start: parseInt(match[1], 10),
     end: parseInt(match[2], 10),
-    raw: `${match[1]}-${match[2]}` // 標準化四碼區間
+    raw: `${match[1]}-${match[2]}`
   };
 }
 
-// 判斷特定時間點 (targetNum) 是否落在電台時段內
 function isPointInTime(timeStr, targetNum) {
   const r = parseTimeRange(timeStr);
   if (!r) return false;
 
-  // 跨午夜判斷 (如 2300-0100)
   if (r.start > r.end) {
     return targetNum >= r.start || targetNum <= r.end;
   }
-  // 一般時段 (如 1410-1430)
   return targetNum >= r.start && targetNum <= r.end;
 }
 
-// 判斷兩個時段是否有重疊/相交 (Overlap / Interval Intersection)
-// 例如：選取 1700-1800 能匹配 1700-1730、1730-1830、1600-1900 等相容時段
 function isTimeRangeOverlap(selectedRangeStr, itemTimeStr) {
-  const r1 = parseTimeRange(selectedRangeStr); // 選單選取的時段
-  const r2 = parseTimeRange(itemTimeStr);       // 電台資料庫的時段
+  const r1 = parseTimeRange(selectedRangeStr);
+  const r2 = parseTimeRange(itemTimeStr);
   if (!r1 || !r2) return false;
 
-  // 展開為 [start, end] 區間列表，完整處理跨午夜 (如 2300-0100 拆成 2300~2400 與 0000~0100)
   function expandIntervals(r) {
     if (r.start > r.end) {
       return [
@@ -84,7 +76,6 @@ function isTimeRangeOverlap(selectedRangeStr, itemTimeStr) {
   const list1 = expandIntervals(r1);
   const list2 = expandIntervals(r2);
 
-  // 兩組區間只要有任一區間交集 > 0，即判定為相容時段
   for (const i1 of list1) {
     for (const i2 of list2) {
       const maxStart = Math.max(i1.s, i2.s);
@@ -97,7 +88,6 @@ function isTimeRangeOverlap(selectedRangeStr, itemTimeStr) {
   return false;
 }
 
-// 單項資料與選取條件比對輔助函式
 function matchCriteria(item, tVal, lVal, sVal, currentNum) {
   let matchT = true;
   let matchL = true;
@@ -108,7 +98,6 @@ function matchCriteria(item, tVal, lVal, sVal, currentNum) {
   } else if (tVal === 'ALL') {
     matchT = true;
   } else {
-    // 模糊區間重疊匹配（同時自動忽略星期幾等文字）
     matchT = isTimeRangeOverlap(tVal, item.time);
   }
 
@@ -123,30 +112,39 @@ function matchCriteria(item, tVal, lVal, sVal, currentNum) {
   return matchT && matchL && matchS;
 }
 
+// 語言自訂排序權重：普通話/華語/國語最優先，其次為英語，其餘依筆畫/字母排序
+function getLangPriority(lang) {
+  const l = String(lang).toLowerCase();
+  if (l.includes('普通話') || l.includes('华语') || l.includes('華語') || l.includes('国语') || l.includes('國語') || l.includes('mandarin') || l.includes('chinese')) {
+    return 1;
+  }
+  if (l.includes('英語') || l.includes('英语') || l.includes('english') || l === 'en') {
+    return 2;
+  }
+  return 3;
+}
+
 // ==========================================
-// 4. UI 初始化與選項生成 (標準化純時段選單)
+// 4. UI 初始化與選項生成 (普通話/英語 置頂)
 // ==========================================
 function initFilters() {
-  const timeRanges = new Map(); // key: "1700-1800", value: startInt
+  const timeRanges = new Map();
   const langs = new Set();
   const stations = new Set();
 
   radioData.forEach(item => {
     if (!isValidItem(item)) return;
 
-    // 將時段純化為標準 "XXXX-XXXX"，去除星期幾等雜訊並去重
     const r = parseTimeRange(item.time);
-    if (r) {
-      if (!timeRanges.has(r.raw)) {
-        timeRanges.set(r.raw, r.start);
-      }
+    if (r && !timeRanges.has(r.raw)) {
+      timeRanges.set(r.raw, r.start);
     }
 
     if (item.language && String(item.language).trim()) langs.add(String(item.language).trim());
     if (item.station && String(item.station).trim()) stations.add(String(item.station).trim());
   });
 
-  // 依開始時間由早到晚排序
+  // 1. 時段選單
   const sortedTimeRanges = Array.from(timeRanges.entries()).sort((a, b) => a[1] - b[1]);
 
   timeSelect.innerHTML = '';
@@ -167,18 +165,25 @@ function initFilters() {
     timeSelect.appendChild(opt);
   });
 
-  // 語言選單
+  // 2. 語言選單 (普通話系列 -> 英語 -> 其餘語言)
+  const sortedLangs = Array.from(langs).sort((a, b) => {
+    const pA = getLangPriority(a);
+    const pB = getLangPriority(b);
+    if (pA !== pB) return pA - pB;
+    return a.localeCompare(b, 'zh-Hant');
+  });
+
   langSelect.innerHTML = '<option value="ALL">全部語言</option>';
-  Array.from(langs).sort().forEach(l => {
+  sortedLangs.forEach(l => {
     const opt = document.createElement('option');
     opt.value = l;
     opt.textContent = l;
     langSelect.appendChild(opt);
   });
 
-  // 電台選單
+  // 3. 電台選單
   stationSelect.innerHTML = '<option value="ALL">全部電台</option>';
-  Array.from(stations).sort().forEach(s => {
+  Array.from(stations).sort((a, b) => a.localeCompare(b, 'zh-Hant')).forEach(s => {
     const opt = document.createElement('option');
     opt.value = s;
     opt.textContent = s;
