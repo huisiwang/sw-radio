@@ -27,7 +27,7 @@ function isValidItem(item) {
 }
 
 // ==========================================
-// 3. 時間轉換、排序與跨午夜匹配邏輯
+// 3. 時間轉換、區間交集（重疊）匹配邏輯
 // ==========================================
 function getCurrentHHMM() {
   const now = new Date();
@@ -36,54 +36,118 @@ function getCurrentHHMM() {
   return parseInt(hh + mm, 10);
 }
 
-function parseStartTime(timeStr) {
-  if (!timeStr) return 9999;
+// 解析時段字串中的起訖時間 (自動忽略星期幾等附帶文字)
+// 例如 "1700-1800"、"2230-2300(週一至五)" 皆能解析
+function parseTimeRange(timeStr) {
+  if (!timeStr) return null;
   const match = String(timeStr).match(/(\d{4})\s*-\s*(\d{4})/);
-  if (match && match[1]) {
-    return parseInt(match[1], 10);
-  }
-  return 9999;
+  if (!match || match.length < 3) return null;
+
+  return {
+    start: parseInt(match[1], 10),
+    end: parseInt(match[2], 10),
+    raw: `${match[1]}-${match[2]}` // 標準化四碼區間
+  };
 }
 
-function isTimeMatch(timeStr, targetNum) {
-  if (!timeStr) return false;
-
-  const match = String(timeStr).match(/(\d{4})\s*-\s*(\d{4})/);
-  if (!match || match.length < 3) return false;
-
-  const start = parseInt(match[1], 10);
-  const end = parseInt(match[2], 10);
+// 判斷特定時間點 (targetNum) 是否落在電台時段內
+function isPointInTime(timeStr, targetNum) {
+  const r = parseTimeRange(timeStr);
+  if (!r) return false;
 
   // 跨午夜判斷 (如 2300-0100)
-  if (start > end) {
-    return targetNum >= start || targetNum <= end;
+  if (r.start > r.end) {
+    return targetNum >= r.start || targetNum <= r.end;
+  }
+  // 一般時段 (如 1410-1430)
+  return targetNum >= r.start && targetNum <= r.end;
+}
+
+// 判斷兩個時段是否有重疊/相交 (Overlap / Interval Intersection)
+// 例如：選取 1700-1800 能匹配 1700-1730、1730-1830、1600-1900 等相容時段
+function isTimeRangeOverlap(selectedRangeStr, itemTimeStr) {
+  const r1 = parseTimeRange(selectedRangeStr); // 選單選取的時段
+  const r2 = parseTimeRange(itemTimeStr);       // 電台資料庫的時段
+  if (!r1 || !r2) return false;
+
+  // 展開為 [start, end] 區間列表，完整處理跨午夜 (如 2300-0100 拆成 2300~2400 與 0000~0100)
+  function expandIntervals(r) {
+    if (r.start > r.end) {
+      return [
+        { s: r.start, e: 2400 },
+        { s: 0, e: r.end }
+      ];
+    }
+    return [{ s: r.start, e: r.end }];
   }
 
-  // 一般時段判斷 (如 1410-1430)
-  return targetNum >= start && targetNum <= end;
+  const list1 = expandIntervals(r1);
+  const list2 = expandIntervals(r2);
+
+  // 兩組區間只要有任一區間交集 > 0，即判定為相容時段
+  for (const i1 of list1) {
+    for (const i2 of list2) {
+      const maxStart = Math.max(i1.s, i2.s);
+      const minEnd = Math.min(i1.e, i2.e);
+      if (maxStart < minEnd) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+// 單項資料與選取條件比對輔助函式
+function matchCriteria(item, tVal, lVal, sVal, currentNum) {
+  let matchT = true;
+  let matchL = true;
+  let matchS = true;
+
+  if (tVal === 'AUTO') {
+    matchT = isPointInTime(item.time, currentNum);
+  } else if (tVal === 'ALL') {
+    matchT = true;
+  } else {
+    // 模糊區間重疊匹配（同時自動忽略星期幾等文字）
+    matchT = isTimeRangeOverlap(tVal, item.time);
+  }
+
+  if (lVal !== 'ALL') {
+    matchL = (item.language && String(item.language).trim() === lVal);
+  }
+
+  if (sVal !== 'ALL') {
+    matchS = (item.station && String(item.station).trim() === sVal);
+  }
+
+  return matchT && matchL && matchS;
 }
 
 // ==========================================
-// 4. UI 初始化與選項生成 (時段按開始時間排序)
+// 4. UI 初始化與選項生成 (標準化純時段選單)
 // ==========================================
 function initFilters() {
-  const times = new Set();
+  const timeRanges = new Map(); // key: "1700-1800", value: startInt
   const langs = new Set();
   const stations = new Set();
 
   radioData.forEach(item => {
     if (!isValidItem(item)) return;
-    if (item.time && String(item.time).trim()) times.add(String(item.time).trim());
+
+    // 將時段純化為標準 "XXXX-XXXX"，去除星期幾等雜訊並去重
+    const r = parseTimeRange(item.time);
+    if (r) {
+      if (!timeRanges.has(r.raw)) {
+        timeRanges.set(r.raw, r.start);
+      }
+    }
+
     if (item.language && String(item.language).trim()) langs.add(String(item.language).trim());
     if (item.station && String(item.station).trim()) stations.add(String(item.station).trim());
   });
 
-  // 1. 時段依照「開始時間」升序排序 (例如 0000 -> 0600 -> 1400 -> 2200)
-  const sortedTimes = Array.from(times).sort((a, b) => {
-    const startA = parseStartTime(a);
-    const startB = parseStartTime(b);
-    return startA - startB;
-  });
+  // 依開始時間由早到晚排序
+  const sortedTimeRanges = Array.from(timeRanges.entries()).sort((a, b) => a[1] - b[1]);
 
   timeSelect.innerHTML = '';
   const optAuto = document.createElement('option');
@@ -96,14 +160,14 @@ function initFilters() {
   optAllTime.textContent = '全部時段';
   timeSelect.appendChild(optAllTime);
 
-  sortedTimes.forEach(t => {
+  sortedTimeRanges.forEach(([rawTime]) => {
     const opt = document.createElement('option');
-    opt.value = t;
-    opt.textContent = t;
+    opt.value = rawTime;
+    opt.textContent = rawTime;
     timeSelect.appendChild(opt);
   });
 
-  // 2. 語言列表
+  // 語言選單
   langSelect.innerHTML = '<option value="ALL">全部語言</option>';
   Array.from(langs).sort().forEach(l => {
     const opt = document.createElement('option');
@@ -112,7 +176,7 @@ function initFilters() {
     langSelect.appendChild(opt);
   });
 
-  // 3. 電台列表
+  // 電台選單
   stationSelect.innerHTML = '<option value="ALL">全部電台</option>';
   Array.from(stations).sort().forEach(s => {
     const opt = document.createElement('option');
@@ -158,30 +222,7 @@ function applyFilter() {
   const currentNum = getCurrentHHMM();
 
   const validData = radioData.filter(isValidItem);
-
-  const filtered = validData.filter(item => {
-    let matchT = true;
-    let matchL = true;
-    let matchS = true;
-
-    if (selectedTime === 'AUTO') {
-      matchT = isTimeMatch(item.time, currentNum);
-    } else if (selectedTime === 'ALL') {
-      matchT = true;
-    } else {
-      matchT = (item.time && String(item.time).trim() === selectedTime);
-    }
-
-    if (selectedLang !== 'ALL') {
-      matchL = (item.language && String(item.language).trim() === selectedLang);
-    }
-
-    if (selectedStation !== 'ALL') {
-      matchS = (item.station && String(item.station).trim() === selectedStation);
-    }
-
-    return matchT && matchL && matchS;
-  });
+  const filtered = validData.filter(item => matchCriteria(item, selectedTime, selectedLang, selectedStation, currentNum));
 
   if (filtered.length === 0) {
     alertBanner.style.display = 'block';
@@ -194,7 +235,7 @@ function applyFilter() {
     } else if (selectedTime === 'ALL') {
       listTitle.textContent = '全部時段電台';
     } else {
-      listTitle.textContent = '篩選結果';
+      listTitle.textContent = `時段涵蓋 ${selectedTime} 之電台`;
     }
     renderList(filtered);
   }
@@ -208,7 +249,7 @@ function updateClock() {
 }
 
 // ==========================================
-// 6. 資料載入 (標準快取機制)
+// 6. 資料載入
 // ==========================================
 async function loadData() {
   try {
@@ -237,20 +278,92 @@ async function loadData() {
 }
 
 // ==========================================
-// 7. 選單連動事件
+// 7. 三向智慧交叉連動事件
 // ==========================================
-timeSelect.addEventListener('change', applyFilter);
+timeSelect.addEventListener('change', () => {
+  const tVal = timeSelect.value;
+  let lVal = langSelect.value;
+  let sVal = stationSelect.value;
+  const currentNum = getCurrentHHMM();
+  const validData = radioData.filter(isValidItem);
 
-// 切換「語言」時：自動將時段設為「全部時段」
-langSelect.addEventListener('change', () => {
-  timeSelect.value = 'ALL';
+  if (validData.some(item => matchCriteria(item, tVal, lVal, sVal, currentNum))) {
+    applyFilter();
+    return;
+  }
+
+  if (sVal !== 'ALL' && validData.some(item => matchCriteria(item, tVal, 'ALL', sVal, currentNum))) {
+    langSelect.value = 'ALL';
+    applyFilter();
+    return;
+  }
+
+  if (lVal !== 'ALL' && validData.some(item => matchCriteria(item, tVal, lVal, 'ALL', currentNum))) {
+    stationSelect.value = 'ALL';
+    applyFilter();
+    return;
+  }
+
+  langSelect.value = 'ALL';
+  stationSelect.value = 'ALL';
   applyFilter();
 });
 
-// 切換「電台」時：自動將時段設為「全部時段」，且自動將語言重設為「全部語言」
 stationSelect.addEventListener('change', () => {
+  let tVal = timeSelect.value;
+  let lVal = langSelect.value;
+  const sVal = stationSelect.value;
+  const currentNum = getCurrentHHMM();
+  const validData = radioData.filter(isValidItem);
+
+  if (validData.some(item => matchCriteria(item, tVal, lVal, sVal, currentNum))) {
+    applyFilter();
+    return;
+  }
+
+  if (validData.some(item => matchCriteria(item, tVal, 'ALL', sVal, currentNum))) {
+    langSelect.value = 'ALL';
+    applyFilter();
+    return;
+  }
+
+  if (lVal !== 'ALL' && validData.some(item => matchCriteria(item, 'ALL', lVal, sVal, currentNum))) {
+    timeSelect.value = 'ALL';
+    applyFilter();
+    return;
+  }
+
   timeSelect.value = 'ALL';
   langSelect.value = 'ALL';
+  applyFilter();
+});
+
+langSelect.addEventListener('change', () => {
+  let tVal = timeSelect.value;
+  const lVal = langSelect.value;
+  let sVal = stationSelect.value;
+  const currentNum = getCurrentHHMM();
+  const validData = radioData.filter(isValidItem);
+
+  if (validData.some(item => matchCriteria(item, tVal, lVal, sVal, currentNum))) {
+    applyFilter();
+    return;
+  }
+
+  if (validData.some(item => matchCriteria(item, tVal, lVal, 'ALL', currentNum))) {
+    stationSelect.value = 'ALL';
+    applyFilter();
+    return;
+  }
+
+  if (sVal !== 'ALL' && validData.some(item => matchCriteria(item, 'ALL', lVal, sVal, currentNum))) {
+    timeSelect.value = 'ALL';
+    applyFilter();
+    return;
+  }
+
+  timeSelect.value = 'ALL';
+  stationSelect.value = 'ALL';
   applyFilter();
 });
 
