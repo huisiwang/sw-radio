@@ -31,12 +31,10 @@ function isTimeMatch(timeStr, targetNum) {
   const start = parseInt(match[1], 10);
   const end = parseInt(match[2], 10);
 
-  // 跨午夜判斷 (如 2300-0100)
   if (start > end) {
     return targetNum >= start || targetNum <= end;
   }
 
-  // 一般時段判斷 (如 1410-1430)
   return targetNum >= start && targetNum <= end;
 }
 
@@ -150,11 +148,10 @@ function updateClock() {
 }
 
 // ==========================================
-// 5. 資料載入 (Fetch data.json 相對路徑解析)
+// 5. 資料載入 (Fetch data.json 並自動清理隱藏字符/BOM)
 // ==========================================
 async function loadData() {
   try {
-    // 依據目前 HTML 所在完整 URL 相對解析 data.json，避免 GitHub Pages 子路徑差異
     const jsonUrl = new URL('data.json', window.location.href).href;
     const response = await fetch(jsonUrl, { cache: 'no-cache' });
     
@@ -162,11 +159,21 @@ async function loadData() {
       throw new Error(`HTTP ${response.status} (${response.statusText})`);
     }
 
-    const text = await response.text();
+    let text = await response.text();
+    
+    // 1. 去除開頭 UTF-8 BOM (\uFEFF)
+    text = text.replace(/^\uFEFF/, '').trim();
+
+    // 2. 移除結尾多餘逗號以增加容錯能力 (如 `, ]` 或 `, }`)
+    const sanitizedText = text.replace(/,\s*([\]}])/g, '$1');
+
     try {
-      radioData = JSON.parse(text);
+      radioData = JSON.parse(sanitizedText);
     } catch (parseErr) {
-      throw new Error(`JSON 語法解析失敗: ${parseErr.message}`);
+      // 印出詳細出錯位置附近的字元供除錯
+      console.error('原始文本 (前 300 字):', text.slice(0, 300));
+      console.error('原始文本 (後 300 字):', text.slice(-300));
+      throw new Error(`第 87 行或末尾語法錯誤: ${parseErr.message}`);
     }
 
     initFilters();
@@ -175,7 +182,7 @@ async function loadData() {
   } catch (error) {
     console.error('無法載入 data.json:', error);
     alertBanner.style.display = 'block';
-    alertBanner.textContent = `❌ 無法載入資料: ${error.message}。請檢查檔案大小寫或 JSON 語法。`;
+    alertBanner.textContent = `❌ 無法載入資料: ${error.message}。請確認 data.json 結尾格式。`;
   }
 }
 
