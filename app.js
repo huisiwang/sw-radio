@@ -1,145 +1,179 @@
+// ==========================================
+// 1. 全域變數與 DOM 元素抓取
+// ==========================================
 let radioData = [];
 
-// 網頁初始化
-document.addEventListener("DOMContentLoaded", () => {
-    // 💡 智慧路徑修正：自動根據當前網頁網址，尋找同目錄下的 data.json
-    const jsonPath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/')) + '/data.json';
-    
-    fetch(jsonPath)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`網路回應不正確，狀態碼: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            radioData = data;
-            initFilters();
-            updateTimeDisplay();
-            renderTable();
-            
-            // 監聽選單變更
-            document.getElementById("filterTime").addEventListener("change", renderTable);
-            document.getElementById("filterLang").addEventListener("change", renderTable);
-            document.getElementById("filterStation").addEventListener("change", renderTable);
-        })
-        .catch(err => {
-            console.error("無法讀取資料庫，請檢查 data.json 是否存在且格式正確。錯誤訊息:", err);
-            alert("資料讀取失敗，請確認 data.json 檔案名稱大小寫是否完全一致！");
-        });
-        
-    // 每分鐘更新一次手機時間顯示
-    setInterval(updateTimeDisplay, 60000);
-});
+const timeSelect = document.getElementById('timeSelect');
+const langSelect = document.getElementById('langSelect');
+const stationSelect = document.getElementById('stationSelect');
+const stationContainer = document.getElementById('stationContainer');
+const alertBanner = document.getElementById('alertBanner');
+const listTitle = document.getElementById('listTitle');
+const listCount = document.getElementById('listCount');
+const currentClock = document.getElementById('currentClock');
 
-// 更新時間文字顯示
-function updateTimeDisplay() {
-    const now = new Date();
-    const hh = String(now.getHours()).padStart(2, '0');
-    const mm = String(now.getMinutes()).padStart(2, '0');
-    document.getElementById("currentTime").innerText = `手機時間：${hh}:${mm}`;
+// ==========================================
+// 2. 時間轉換與跨午夜匹配邏輯
+// ==========================================
+function getCurrentHHMM() {
+  const now = new Date();
+  const hh = String(now.getHours()).padStart(2, '0');
+  const mm = String(now.getMinutes()).padStart(2, '0');
+  return parseInt(hh + mm, 10);
 }
 
-// 初始化並動態生成下拉選單選項
+function isTimeMatch(timeStr, targetNum) {
+  if (!timeStr) return false;
+
+  // 抓取四碼數字 (如 0000-0110、2300-0100)
+  const match = timeStr.match(/(\d{4})\s*-\s*(\d{4})/);
+  if (!match || match.length < 3) return false;
+
+  const start = parseInt(match[1], 10);
+  const end = parseInt(match[2], 10);
+
+  // 跨午夜判斷 (如 2300-0100)
+  if (start > end) {
+    return targetNum >= start || targetNum <= end;
+  }
+
+  // 一般時段判斷 (如 1410-1430)
+  return targetNum >= start && targetNum <= end;
+}
+
+// ==========================================
+// 3. UI 初始化與選項生成
+// ==========================================
 function initFilters() {
-    const timeSelect = document.getElementById("filterTime");
-    const langSelect = document.getElementById("filterLang");
-    const stationSelect = document.getElementById("filterStation");
+  const times = new Set();
+  const langs = new Set();
+  const stations = new Set();
 
-    const times = new Set();
-    const langs = new Set();
-    const stations = new Set();
+  radioData.forEach(item => {
+    if (item.time) times.add(item.time.trim());
+    if (item.language) langs.add(item.language.trim());
+    if (item.station) stations.add(item.station.trim());
+  });
 
-    radioData.forEach(item => {
-        if(item.time) times.add(item.time);
-        if(item.language) langs.add(item.language);
-        if(item.station) stations.add(item.station);
-    });
+  times.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t;
+    opt.textContent = t;
+    timeSelect.appendChild(opt);
+  });
 
-    // 填入時間區間
-    Array.from(times).sort().forEach(t => {
-        timeSelect.options.add(new Option(t, t));
-    });
-    // 填入語言
-    Array.from(langs).sort().forEach(l => {
-        langSelect.options.add(new Option(l, l));
-    });
-    // 填入電台
-    Array.from(stations).sort().forEach(s => {
-        stationSelect.options.add(new Option(s, s));
-    });
+  langs.forEach(l => {
+    const opt = document.createElement('option');
+    opt.value = l;
+    opt.textContent = l;
+    langSelect.appendChild(opt);
+  });
+
+  stations.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = s;
+    stationSelect.appendChild(opt);
+  });
 }
 
-// 核心時間比對演算法
-function isTimeMatched(currentTimeStr, targetInterval) {
-    // 提取目標區間的前四碼數字 (例如 "1900-2000" 提取 1900 和 2000)
-    const match = targetInterval.match(/^(\d{4})-(\d{4})/);
-    if (!match) return false;
-
-    const current = parseInt(currentTimeStr, 10);
-    const start = parseInt(match[1], 10); // 💡 修正：加上 [1] 索引
-    const end = parseInt(match[2], 10);   // 💡 修正：加上 [2] 索引
-
-    if (end < start) { 
-        // 跨子夜處理邏輯 (例如 2300-0100)
-        return current >= start || current < end;
-    }
-    return current >= start && current < end;
+function renderList(data) {
+  stationContainer.innerHTML = '';
+  data.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'station-card';
+    card.innerHTML = `
+      <div class="station-info">
+        <div class="station-name">${item.station || '未知電台'}</div>
+        <div class="station-meta">
+          <span class="meta-tag">🕒 ${item.time || '未指定'}</span>
+          <span class="meta-tag">🗣️ ${item.language || '未註明'}</span>
+          ${item.region ? `<span class="meta-tag">📍 ${item.region}</span>` : ''}
+        </div>
+      </div>
+      <div class="freq-box">
+        <div class="freq-val">${item.frequency || '--'}</div>
+        <div class="freq-unit">kHz</div>
+      </div>
+    `;
+    stationContainer.appendChild(card);
+  });
+  listCount.textContent = `${data.length} 個頻率`;
 }
 
-// 核心篩選與渲染畫面
-function renderTable() {
-    const selectTime = document.getElementById("filterTime").value;
-    const selectLang = document.getElementById("filterLang").value;
-    const selectStation = document.getElementById("filterStation").value;
-    const alertBox = document.getElementById("alertBox");
-    const container = document.getElementById("listContainer");
+// ==========================================
+// 4. 篩選判斷與查無結果處理
+// ==========================================
+function applyFilter() {
+  const selectedTime = timeSelect.value;
+  const selectedLang = langSelect.value;
+  const selectedStation = stationSelect.value;
+  const currentNum = getCurrentHHMM();
 
-    // 取得當前手機時間的四碼字串 (例如 "1625")
-    const now = new Date();
-    const current4DigitTime = String(now.getHours()).padStart(2, '0') + String(now.getMinutes()).padStart(2, '0');
+  const filtered = radioData.filter(item => {
+    let matchT = true;
+    let matchL = true;
+    let matchS = true;
 
-    // 1. 執行篩選
-    let filtered = radioData.filter(item => {
-        // 時間篩選
-        if (selectTime === "auto") {
-            if (!isTimeMatched(current4DigitTime, item.time)) return false;
-        } else if (selectTime !== "all" && item.time !== selectTime) {
-            return false;
-        }
-        // 語言篩選
-        if (selectLang !== "all" && item.language !== selectLang) return false;
-        // 電台篩選
-        if (selectStation !== "all" && item.station !== selectStation) return false;
-
-        return true;
-    });
-
-    // 2. 防呆機制：若查無資料，改為顯示全部
-    if (filtered.length === 0) {
-        filtered = radioData;
-        alertBox.style.display = "block";
+    if (selectedTime === 'AUTO') {
+      matchT = isTimeMatch(item.time, currentNum);
     } else {
-        alertBox.style.display = "none";
+      matchT = (item.time && item.time.trim() === selectedTime);
     }
 
-    // 3. 渲染卡片介面
-    container.innerHTML = "";
-    filtered.forEach(item => {
-        const card = document.createElement("div");
-        card.className = "radio-card";
-        card.innerHTML = `
-            <div class="card-title">${item.station}</div>
-            <div class="card-meta">
-                <span>時段: ${item.time}</span>
-                <span>語言: ${item.language}</span>
-            </div>
-            <div class="card-meta" style="align-items: center; margin-top: 8px;">
-                <span class="frequency-badge">${item.frequency} kHz</span>
-                <span class="region-text">${item.region !== '未註明' ? item.region : ''}</span>
-            </div>
-        `;
-        container.appendChild(card);
-    });
+    if (selectedLang !== 'ALL') {
+      matchL = (item.language && item.language.trim() === selectedLang);
+    }
+
+    if (selectedStation !== 'ALL') {
+      matchS = (item.station && item.station.trim() === selectedStation);
+    }
+
+    return matchT && matchL && matchS;
+  });
+
+  if (filtered.length === 0) {
+    alertBanner.style.display = 'block';
+    listTitle.textContent = '全部電台清單 (查無符合結果)';
+    renderList(radioData);
+  } else {
+    alertBanner.style.display = 'none';
+    listTitle.textContent = selectedTime === 'AUTO' ? '現正播音電台' : '篩選結果';
+    renderList(filtered);
+  }
 }
 
+function updateClock() {
+  const now = new Date();
+  const hh = String(now.getHours()).padStart(2, '0');
+  const mm = String(now.getMinutes()).padStart(2, '0');
+  currentClock.textContent = `目前時間：${hh}:${mm}`;
+}
+
+// ==========================================
+// 5. 資料載入 (Fetch data.json) 與事件綁定
+// ==========================================
+async function loadData() {
+  try {
+    const response = await fetch('./data.json');
+    if (!response.ok) {
+      throw new Error(`HTTP 錯誤! 狀態碼: ${response.status}`);
+    }
+    radioData = await response.json();
+    initFilters();
+    updateClock();
+    applyFilter();
+  } catch (error) {
+    console.error('無法載入 data.json:', error);
+    alertBanner.style.display = 'block';
+    alertBanner.textContent = '❌ 無法載入電台資料 (data.json)，請確認檔案路徑。';
+  }
+}
+
+timeSelect.addEventListener('change', applyFilter);
+langSelect.addEventListener('change', applyFilter);
+stationSelect.addEventListener('change', applyFilter);
+
+// 初始化
+loadData();
+setInterval(updateClock, 10000);
