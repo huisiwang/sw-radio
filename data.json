@@ -979,7 +979,7 @@
     ]
   },
   {
-    "station": "CRI 中籤國際廣播電台",
+    "station": "CRI 中國國際廣播電台",
     "time": "1700-1800",
     "frequency": "15525",
     "language": "普通話",
@@ -1905,17 +1905,6 @@
   {
     "station": "CRI 中國國際廣播電台",
     "time": "1900-2000",
-    "frequency": "603(MW)",
-    "language": "粵語",
-    "target": "東南亞/大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
     "frequency": "7370",
     "language": "粵語",
     "target": "東南亞/大洋洲",
@@ -2312,10 +2301,10 @@
   {
     "station": "KBS World Radio 韓國國際廣播電台",
     "time": "1900-2000",
-    "frequency": "1557(MW)",
+    "frequency": "1557",
     "language": "普通話",
     "target": "華南",
-    "remarks": "",
+    "remarks": "中波MW",
     "tags": [
       "中文"
     ]
@@ -2356,10 +2345,10 @@
   {
     "station": "KBS World Radio 韓國國際廣播電台",
     "time": "2100-2200",
-    "frequency": "1170(MW)",
+    "frequency": "1170",
     "language": "普通話",
     "target": "不定向",
-    "remarks": "",
+    "remarks": "中波MW",
     "tags": [
       "中文"
     ]
@@ -2486,7 +2475,7 @@
     ]
   },
   {
-    "station": "RRI-VOI 印度尼西亞之聲",
+    "station": "VOI 印度尼西亞之聲",
     "time": "1900-2000",
     "frequency": "3325",
     "language": "普通話",
@@ -2497,7 +2486,7 @@
     ]
   },
   {
-    "station": "RRI-VOI 印度尼西亞之聲",
+    "station": "VOI 印度尼西亞之聲",
     "time": "1900-2000",
     "frequency": "4755",
     "language": "普通話",
@@ -2508,7 +2497,7 @@
     ]
   },
   {
-    "station": "RRI-VOI 印度尼西亞之聲",
+    "station": "VOI 印度尼西亞之聲",
     "time": "2300-2400",
     "frequency": "3325",
     "language": "普通話",
@@ -2519,7 +2508,7 @@
     ]
   },
   {
-    "station": "RRI-VOI 印度尼西亞之聲",
+    "station": "VOI 印度尼西亞之聲",
     "time": "2300-2400",
     "frequency": "4755",
     "language": "普通話",
@@ -2576,17 +2565,6 @@
   {
     "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
     "time": "1500-1600",
-    "frequency": "1098(MW)",
-    "language": "普通話",
-    "target": "華中",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "1500-1600",
     "frequency": "11815",
     "language": "普通話",
     "target": "華中",
@@ -2598,32 +2576,10 @@
   {
     "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
     "time": "1600-1610",
-    "frequency": "1098(MW)",
-    "language": "普通話",
-    "target": "華中",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "1600-1610",
     "frequency": "11815",
     "language": "普通話",
     "target": "華中",
     "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "1700-1800",
-    "frequency": "1557(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
     "tags": [
       "中文"
     ]
@@ -2632,17 +2588,6 @@
     "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
     "time": "1700-1800",
     "frequency": "9595",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "1800-1900",
-    "frequency": "1557(MW)",
     "language": "普通話",
     "target": "華北/華中/華南",
     "remarks": "",
@@ -2733,28 +2678,6 @@
     "frequency": "6145",
     "language": "普通話",
     "target": "華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "0000-0100",
-    "frequency": "1098(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "0000-0100",
-    "frequency": "1557(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
     "remarks": "",
     "tags": [
       "中文"
@@ -2917,17 +2840,6 @@
   {
     "station": "RTI 中央廣播電台 台灣之音 (華語網)",
     "time": "2000-2100",
-    "frequency": "1557(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2000-2100",
     "frequency": "6180",
     "language": "普通話",
     "target": "華北/華中/華南",
@@ -2973,28 +2885,6 @@
     "station": "RTI 中央廣播電台 台灣之音 (華語網)",
     "time": "2000-2100",
     "frequency": "9885",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2100-2200",
-    "frequency": "1098(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2100-2200",
-    "frequency": "1557(MW)",
     "language": "普通話",
     "target": "華北/華中/華南",
     "remarks": "",
@@ -3060,28 +2950,6 @@
   {
     "station": "RTI 中央廣播電台 台灣之音 (華語網)",
     "time": "2200-2300",
-    "frequency": "1098(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2200-2300",
-    "frequency": "1557(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2200-2300",
     "frequency": "6180",
     "language": "普通話",
     "target": "華北/華中/華南",
@@ -3094,28 +2962,6 @@
     "station": "RTI 中央廣播電台 台灣之音 (華語網)",
     "time": "2200-2300",
     "frequency": "9660",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2300-2400",
-    "frequency": "1098(MW)",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2300-2400",
-    "frequency": "1557(MW)",
     "language": "普通話",
     "target": "華北/華中/華南",
     "remarks": "",
@@ -3279,39 +3125,6 @@
   },
   {
     "station": "RTI 中央廣播電台 台灣之音",
-    "time": "2230-2300",
-    "frequency": "738(MW)",
-    "language": "客家話",
-    "target": "對華/台灣",
-    "remarks": "周一至五; 漁業電台轉播, MW1593受CNR干擾",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音",
-    "time": "2230-2300",
-    "frequency": "1143(MW)",
-    "language": "客家話",
-    "target": "對華/台灣",
-    "remarks": "周一至五; 漁業電台轉播, MW1593受CNR干擾",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音",
-    "time": "2230-2300",
-    "frequency": "1593(MW)",
-    "language": "客家話",
-    "target": "對華/台灣",
-    "remarks": "周一至五; 漁業電台轉播, MW1593受CNR干擾",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音",
     "time": "2330-2400",
     "frequency": "9540",
     "language": "客家話",
@@ -3333,7 +3146,7 @@
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台 台灣之裝",
     "time": "1700-1800",
     "frequency": "12065",
     "language": "閩南語(台語)",
@@ -3675,33 +3488,11 @@
   },
   {
     "station": "VOV 越南之聲",
-    "time": "1230-1300",
-    "frequency": "1071(MW)",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "中波MW國內難接收",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOV 越南之聲",
-    "time": "1830-1900",
-    "frequency": "1071(MW)",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "中波MW國內難接收",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOV 越南之聲",
     "time": "1830-1900",
     "frequency": "7220",
     "language": "普通話",
     "target": "對華",
-    "remarks": "中波MW國內難接收",
+    "remarks": "",
     "tags": [
       "中文"
     ]
@@ -4010,50 +3801,6 @@
     "language": "普通話",
     "target": "對華",
     "remarks": "愛廣播頻道",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 益友電台·第一台",
-    "time": "1900-2030",
-    "frequency": "1566(MW)",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 益友電台·第一台",
-    "time": "2145-次日0030",
-    "frequency": "1566(MW)",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 益友電台·第二台",
-    "time": "0600-0700",
-    "frequency": "1188(MW)",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "試播",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 益友電台·第二台",
-    "time": "1800-1900",
-    "frequency": "1188(MW)",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "試播",
     "tags": [
       "宗教"
     ]
@@ -4456,17 +4203,6 @@
   },
   {
     "station": "TWR 環球廣播電台",
-    "time": "0100-0130",
-    "frequency": "612(MW)",
-    "language": "維吾爾語",
-    "target": "對華/新疆",
-    "remarks": "周二至五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
     "time": "2245-2300",
     "frequency": "11590",
     "language": "哈薩克語",
@@ -4609,232 +4345,12 @@
     ]
   },
   {
-    "station": "FRS 漁業廣播電台",
-    "time": "0400-0520",
-    "frequency": "738(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周一至五",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0400-0520",
-    "frequency": "1143(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周一至五",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0400-0520",
-    "frequency": "1593(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周一至五",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0600-次日0320",
-    "frequency": "738(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周一至五",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0600-次日0320",
-    "frequency": "1143(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周一至五",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0600-次日0320",
-    "frequency": "1593(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周一至五",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0000-1420",
-    "frequency": "738(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0000-1420",
-    "frequency": "1143(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "0000-1420",
-    "frequency": "1593(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "1500-1520",
-    "frequency": "738(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "1500-1520",
-    "frequency": "1143(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "1500-1520",
-    "frequency": "1593(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "1600-2400",
-    "frequency": "738(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "1600-2400",
-    "frequency": "1143(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FRS 漁業廣播電台",
-    "time": "1600-2400",
-    "frequency": "1593(MW)",
-    "language": "普通話/閩南語交替",
-    "target": "台灣/沿海",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "KHmusic 光華之聲",
-    "time": "1555-次日0800",
-    "frequency": "711(MW)",
-    "language": "普通話",
-    "target": "對華/沿海",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "KHmusic 光華之聲",
-    "time": "1555-次日0800",
-    "frequency": "801(MW)",
-    "language": "普通話",
-    "target": "對華/沿海",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "KHmusic 光華之聲",
-    "time": "1555-次日0800",
-    "frequency": "981(MW)",
-    "language": "普通話",
-    "target": "對華/沿海",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
     "station": "MRTV 緬甸廣播電視台",
     "time": "1600-1730",
     "frequency": "5915",
     "language": "雲南話(果敢話)",
     "target": "對華/滇緬",
     "remarks": "預計2025年7月1日至9月30日有效",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOH Radio 胡志明市人民之聲",
-    "time": "2020-2030",
-    "frequency": "610(MW)",
-    "language": "普通話",
-    "target": "越南/對華",
-    "remarks": "周一至六",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOH Radio 胡志明市人民之聲",
-    "time": "2010-2020",
-    "frequency": "610(MW)",
-    "language": "粵語",
-    "target": "越南/對華",
-    "remarks": "周一至六",
     "tags": [
       "中文"
     ]
@@ -7301,138 +6817,6 @@
   },
   {
     "station": "CRI 中國國際廣播電台",
-    "time": "0000-2400",
-    "frequency": "846(MW)",
-    "language": "英語",
-    "target": "北京",
-    "remarks": "CGTN Radio; 北京東城582台",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0000-0200",
-    "frequency": "1080(MW)",
-    "language": "英語",
-    "target": "東南亞/南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0000-0200",
-    "frequency": "1323(MW)",
-    "language": "英語",
-    "target": "東南亞/南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "1269(MW)",
-    "language": "英語",
-    "target": "南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "684(MW)",
-    "language": "英語",
-    "target": "東南亞/南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "1188(MW)",
-    "language": "英語",
-    "target": "東南亞/南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "1269(MW)",
-    "language": "英語",
-    "target": "東南亞/南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "1341(MW)",
-    "language": "英語",
-    "target": "東南亞/南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "1341(MW)",
-    "language": "英語",
-    "target": "東南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-2400",
-    "frequency": "1188(MW)",
-    "language": "英語",
-    "target": "南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-2400",
-    "frequency": "1323(MW)",
-    "language": "英語",
-    "target": "南亞",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
     "time": "1400-1500",
     "frequency": "11925",
     "language": "英語",
@@ -7708,7 +7092,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0000-0100",
     "frequency": "9890",
     "language": "英語",
@@ -7720,7 +7104,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0000-0100",
     "frequency": "11645",
     "language": "英語",
@@ -7732,7 +7116,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0200-0300",
     "frequency": "13760",
     "language": "英語",
@@ -7744,7 +7128,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0200-0300",
     "frequency": "15245",
     "language": "英語",
@@ -7756,7 +7140,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0300-0400",
     "frequency": "7210",
     "language": "英語",
@@ -7768,7 +7152,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0300-0400",
     "frequency": "11910",
     "language": "英語",
@@ -7780,7 +7164,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0300-0400",
     "frequency": "9875",
     "language": "英語",
@@ -7792,7 +7176,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0300-0400",
     "frequency": "11635",
     "language": "英語",
@@ -7804,7 +7188,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0500-0600",
     "frequency": "13760",
     "language": "英語",
@@ -7816,7 +7200,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "0500-0600",
     "frequency": "15245",
     "language": "英語",
@@ -7828,7 +7212,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1200-1300",
     "frequency": "7220",
     "language": "英語",
@@ -7840,7 +7224,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1200-1300",
     "frequency": "9445",
     "language": "英語",
@@ -7852,7 +7236,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1200-1300",
     "frequency": "9730",
     "language": "英語",
@@ -7864,7 +7248,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1200-1300",
     "frequency": "11735",
     "language": "英語",
@@ -7876,7 +7260,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1200-1300",
     "frequency": "13760",
     "language": "英語",
@@ -7888,7 +7272,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1200-1300",
     "frequency": "15180",
     "language": "英語",
@@ -7900,7 +7284,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1300-1400",
     "frequency": "13650",
     "language": "英語",
@@ -7912,7 +7296,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1300-1400",
     "frequency": "15105",
     "language": "英語",
@@ -7924,7 +7308,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1400-1500",
     "frequency": "7220",
     "language": "英語",
@@ -7936,7 +7320,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1400-1500",
     "frequency": "9445",
     "language": "英語",
@@ -7948,7 +7332,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1400-1500",
     "frequency": "9730",
     "language": "英語",
@@ -7960,7 +7344,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1800-1900",
     "frequency": "11735",
     "language": "英語",
@@ -7972,7 +7356,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1800-1900",
     "frequency": "13650",
     "language": "英語",
@@ -7984,7 +7368,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1800-1900",
     "frequency": "11710",
     "language": "英語",
@@ -7996,7 +7380,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "1800-1900",
     "frequency": "15180",
     "language": "英語",
@@ -8008,7 +7392,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2100-2200",
     "frequency": "13760",
     "language": "英語",
@@ -8020,7 +7404,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2100-2200",
     "frequency": "15245",
     "language": "英語",
@@ -8032,7 +7416,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2100-2200",
     "frequency": "9435",
     "language": "英語",
@@ -8044,7 +7428,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2100-2200",
     "frequency": "11710",
     "language": "英語",
@@ -8056,7 +7440,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2300-0000",
     "frequency": "13760",
     "language": "英語",
@@ -8068,7 +7452,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2300-0000",
     "frequency": "15245",
     "language": "英語",
@@ -8080,7 +7464,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2300-0000",
     "frequency": "9435",
     "language": "英語",
@@ -8092,7 +7476,7 @@
     ]
   },
   {
-    "station": "Voice of Korea",
+    "station": "VOK 朝鮮之聲",
     "time": "2300-0000",
     "frequency": "11710",
     "language": "英語",
