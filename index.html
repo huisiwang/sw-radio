@@ -213,6 +213,102 @@
       color: var(--text-sub);
       margin-top: 2px;
     }
+
+    .more-filters {
+        border-top: 1px solid var(--border-color);
+        padding-top: 12px;
+    }
+
+    .more-filters summary {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        color: var(--accent);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        list-style: none;
+    }
+
+    .more-filters summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .more-filters summary::after {
+        content: '⌄';
+        color: var(--text-sub);
+        font-size: 20px;
+        transition: transform 0.18s ease;
+    }
+
+    .more-filters[open] summary::after {
+        transform: rotate(180deg);
+    }
+
+    #advancedFilterCount {
+        margin-left: auto;
+        color: var(--text-sub);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .more-filters-content {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding-top: 12px;
+    }
+
+    .exclude-filter {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .checkbox-label {
+        min-height: 28px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--text-sub);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .checkbox-label input[type='checkbox'] {
+        width: 20px;
+        height: 20px;
+        accent-color: var(--accent);
+    }
+
+    #excludeInput {
+        width: 100%;
+        min-height: 48px;
+        padding: 12px 14px;
+        border: 1px solid var(--border-color);
+        border-radius: 10px;
+        background: var(--bg-color);
+        color: var(--text-main);
+        font-size: 16px;
+    }
+
+    #excludeInput:focus {
+        outline: none;
+        border-color: var(--accent);
+    }
+
+    #excludeInput:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    .filter-hint {
+        color: var(--text-sub);
+        font-size: 16px;
+    }
   </style>
 </head>
 <body>
@@ -225,27 +321,58 @@
     </header>
 
     <div class="filter-panel">
-      <div class="form-group">
-        <label for="timeSelect">時段篩選</label>
-        <select id="timeSelect">
-          <option value="AUTO">現在時間 (自動匹配)</option>
-          <option value="ALL">全部時段</option>
-        </select>
-      </div>
+        <div class="form-group">
+            <label for="timeSelect">時段篩選</label>
+            <select id="timeSelect">
+                <option value="AUTO">現在時間（自動匹配）</option>
+                <option value="ALL">全部時段</option>
+                <!-- 其餘整點時段由 app.js 動態建立：0000-0100 至 2300-2400 -->
+            </select>
+        </div>
 
-      <div class="form-group">
-        <label for="langSelect">語言</label>
-        <select id="langSelect">
-          <option value="ALL">全部語言</option>
-        </select>
-      </div>
+        <div class="form-group">
+            <label for="langSelect">語言</label>
+            <select id="langSelect">
+                <option value="ALL">全部語言</option>
+            </select>
+        </div>
 
-      <div class="form-group">
-        <label for="stationSelect">電台</label>
-        <select id="stationSelect">
-          <option value="ALL">全部電台</option>
-        </select>
-      </div>
+        <div class="form-group">
+            <label for="stationSelect">電台</label>
+            <select id="stationSelect">
+                <option value="ALL">全部電台</option>
+            </select>
+        </div>
+
+        <details class="more-filters" id="moreFilters">
+            <summary>＋ 更多篩選 <span id="advancedFilterCount" aria-live="polite"></span></summary>
+
+            <div class="more-filters-content">
+                <div class="form-group">
+                    <label for="tagSelect">分類標籤</label>
+                    <select id="tagSelect">
+                        <option value="ALL">全部分類</option>
+                        <!-- 宗教／外語／中文／DX追蹤等選項由 app.js 依 tags 動態建立 -->
+                    </select>
+                </div>
+
+                <div class="exclude-filter">
+                    <label class="checkbox-label" for="excludeEnabled">
+                        <input id="excludeEnabled" type="checkbox">
+                        <span>排除電台關鍵字</span>
+                    </label>
+                    <input
+                            id="excludeInput"
+                            type="search"
+                            inputmode="search"
+                            autocomplete="off"
+                            placeholder="例如：CRI, CNR"
+                            disabled
+                            >
+                            <p class="filter-hint">以逗號分隔多個關鍵字；只比對電台名稱</p>
+                </div>
+            </div>
+        </details>
     </div>
 
     <div id="alertBanner" class="alert-banner">

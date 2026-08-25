@@ -154,10 +154,24 @@ function initFilters() {
   optAuto.textContent = '現在時間 (自動匹配)';
   timeSelect.appendChild(optAuto);
 
-  const optAllTime = document.createElement('option');
-  optAllTime.value = 'ALL';
-  optAllTime.textContent = '全部時段';
+  //const optAllTime = document.createElement('option');
+  //optAllTime.value = 'ALL';
+  //optAllTime.textContent = '全部時段';
   timeSelect.appendChild(optAllTime);
+  timeSelect.innerHTML = `
+    <option value="AUTO">現在時間（自動匹配）</option>
+    <option value="ALL">全部時段</option>
+  `;
+  
+  for (let hour = 0; hour < 24; hour += 1) {
+      const start = String(hour).padStart(2, '0') + '00';
+      const end = String(hour + 1).padStart(2, '0') + '00';
+
+      const option = document.createElement('option');
+      option.value = `${start}-${end}`;
+      option.textContent = `${start}-${end}`;
+      timeSelect.appendChild(option);
+  }
 
   sortedTimeRanges.forEach(([rawTime]) => {
     const opt = document.createElement('option');
