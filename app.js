@@ -11,6 +11,7 @@ const alertBanner = document.getElementById('alertBanner');
 const listTitle = document.getElementById('listTitle');
 const listCount = document.getElementById('listCount');
 const currentClock = document.getElementById('currentClock');
+const refreshBtn = document.getElementById('refreshBtn');
 
 // ==========================================
 // 2. 嚴格過濾雜訊項目
@@ -372,6 +373,15 @@ langSelect.addEventListener('change', () => {
   stationSelect.value = 'ALL';
   applyFilter();
 });
+
+// ==========================================
+// 8. 重新整理
+// ==========================================
+if (refreshBtn) {
+  refreshBtn.addEventListener('click', () => {
+    window.location.reload();
+  });
+}
 
 // 初始化
 loadData();
