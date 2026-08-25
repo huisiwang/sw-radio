@@ -205,6 +205,7 @@ function renderList(data) {
           <span class="meta-tag">🕒 ${item.time || '未指定'}</span>
           <span class="meta-tag">🗣️ ${item.language || '未註明'}</span>
           ${item.region ? `<span class="meta-tag">📍 ${item.region}</span>` : ''}
+          ${item.remarks ? `<span class="meta-tag">📝 ${item.remarks}</span>` : ''}
         </div>
       </div>
       <div class="freq-box">
