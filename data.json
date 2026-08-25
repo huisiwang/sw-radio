@@ -7817,5 +7817,49 @@
     "tags": [
       "宗教"
     ]
+  },
+  {
+    "station": "VIM Voice of Independent Myanmar",
+    "time": "0830-0930",
+    "frequency": "17665",
+    "language": "英語",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "DX追蹤"
+    ]
+  },
+  {
+    "station": "Mystery of Joy",
+    "time": "0400-0600",
+    "frequency": "6070",
+    "language": "英語",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "DX追蹤"
+    ]
+  },
+  {
+    "station": "Mystery of Joy",
+    "time": "0500-0600",
+    "frequency": "9670",
+    "language": "英語",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "DX追蹤"
+    ]
+  },
+  {
+    "station": "Mystery of Joy",
+    "time": "0630-0700",
+    "frequency": "15770",
+    "language": "英語",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "DX追蹤"
+    ]
   }
 ]
