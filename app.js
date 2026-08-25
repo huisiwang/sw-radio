@@ -174,12 +174,12 @@ function initFilters() {
       timeSelect.appendChild(option);
   }
 
-  sortedTimeRanges.forEach(([rawTime]) => {
-    const opt = document.createElement('option');
-    opt.value = rawTime;
-    opt.textContent = rawTime;
-    timeSelect.appendChild(opt);
-  });
+  //sortedTimeRanges.forEach(([rawTime]) => {
+  //  const opt = document.createElement('option');
+  //  opt.value = rawTime;
+  //  opt.textContent = rawTime;
+  //  timeSelect.appendChild(opt);
+  //});
 
   // 2. 語言選單 (普通話系列 -> 英語 -> 其餘語言)
   const sortedLangs = Array.from(langs).sort((a, b) => {
