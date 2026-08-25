@@ -13,6 +13,11 @@ const listCount = document.getElementById('listCount');
 const currentClock = document.getElementById('currentClock');
 const refreshBtn = document.getElementById('refreshBtn');
 
+const tagSelect = document.getElementById('tagSelect');
+const excludeEnabled = document.getElementById('excludeEnabled');
+const excludeInput = document.getElementById('excludeInput');
+const advancedFilterCount = document.getElementById('advancedFilterCount');
+
 // ==========================================
 // 2. 嚴格過濾雜訊項目
 // ==========================================
@@ -125,6 +130,75 @@ function getLangPriority(lang) {
   return 3;
 }
 
+// 載入tags
+function getItemTags(item) {
+  if (Array.isArray(item.tags)) {
+    return item.tags
+      .map(tag => String(tag).trim())
+      .filter(Boolean);
+  }
+
+  // 容錯：若某些舊資料仍是字串，也能正常使用。
+  if (typeof item.tags === 'string') {
+    return item.tags
+      .split(',')
+      .map(tag => tag.trim())
+      .filter(Boolean);
+  }
+
+  return [];
+}
+
+function getTagPriority(tag) {
+  const priority = {
+    '中文': 1,
+    '外語': 2,
+    '英語': 3,
+    '宗教': 4,
+    'DX追蹤': 5
+  };
+
+  return priority[tag] ?? 99;
+}
+
+function getExcludedKeywords() {
+  if (!excludeEnabled || !excludeEnabled.checked || !excludeInput) {
+    return [];
+  }
+
+  return excludeInput.value
+    .split(',')
+    .map(keyword => keyword.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+function isExcludedByStation(item) {
+  const keywords = getExcludedKeywords();
+
+  if (keywords.length === 0) {
+    return false;
+  }
+
+  const station = String(item.station || '').toLowerCase();
+  return keywords.some(keyword => station.includes(keyword));
+}
+
+function updateAdvancedFilterCount() {
+  if (!advancedFilterCount) return;
+
+  let count = 0;
+
+  if (tagSelect && tagSelect.value !== 'ALL') {
+    count += 1;
+  }
+
+  if (getExcludedKeywords().length > 0) {
+    count += 1;
+  }
+
+  advancedFilterCount.textContent = count > 0 ? `已啟用 ${count} 項` : '';
+}
+
 // ==========================================
 // 4. UI 初始化與選項生成 (普通話/英語 置頂)
 // ==========================================
@@ -132,6 +206,7 @@ function initFilters() {
   const timeRanges = new Map();
   const langs = new Set();
   const stations = new Set();
+  const tags = new Set();
 
   radioData.forEach(item => {
     if (!isValidItem(item)) return;
@@ -143,6 +218,8 @@ function initFilters() {
 
     if (item.language && String(item.language).trim()) langs.add(String(item.language).trim());
     if (item.station && String(item.station).trim()) stations.add(String(item.station).trim());
+
+    getItemTags(item).forEach(tag => tags.add(tag));
   });
 
   // 1. 時段選單
@@ -205,6 +282,28 @@ function initFilters() {
     opt.textContent = s;
     stationSelect.appendChild(opt);
   });
+  
+  if (tagSelect) {
+    const sortedTags = Array.from(tags).sort((a, b) => {
+      const priorityA = getTagPriority(a);
+      const priorityB = getTagPriority(b);
+  
+      if (priorityA !== priorityB) {
+        return priorityA - priorityB;
+      }
+  
+      return a.localeCompare(b, 'zh-Hant');
+    });
+  
+    tagSelect.innerHTML = '<option value="ALL">全部分類</option>';
+  
+    sortedTags.forEach(tag => {
+      const option = document.createElement('option');
+      option.value = tag;
+      option.textContent = tag;
+      tagSelect.appendChild(option);
+    });
+  }
 }
 
 function renderList(data) {
@@ -241,15 +340,34 @@ function applyFilter() {
   const selectedTime = timeSelect.value;
   const selectedLang = langSelect.value;
   const selectedStation = stationSelect.value;
+  const selectedTag = tagSelect ? tagSelect.value : 'ALL';
   const currentNum = getCurrentHHMM();
 
   const validData = radioData.filter(isValidItem);
-  const filtered = validData.filter(item => matchCriteria(item, selectedTime, selectedLang, selectedStation, currentNum));
+  //const filtered = validData.filter(item => matchCriteria(item, selectedTime, selectedLang, selectedStation, currentNum));
+  const filtered = validData.filter(item => {
+    const matchesBasic = matchCriteria(
+      item,
+      selectedTime,
+      selectedLang,
+      selectedStation,
+      currentNum
+    );
+  
+    const matchesTag = (
+      selectedTag === 'ALL' ||
+      getItemTags(item).includes(selectedTag)
+    );
+  
+    return matchesBasic && matchesTag && !isExcludedByStation(item);
+  });
 
   if (filtered.length === 0) {
     alertBanner.style.display = 'block';
     listTitle.textContent = '全部電台清單 (查無符合結果)';
-    renderList(validData);
+    //renderList(validData);
+    const fallbackData = validData.filter(item => !isExcludedByStation(item));
+    renderList(fallbackData);
   } else {
     alertBanner.style.display = 'none';
     if (selectedTime === 'AUTO') {
@@ -261,6 +379,7 @@ function applyFilter() {
     }
     renderList(filtered);
   }
+  updateAdvancedFilterCount();
 }
 
 function updateClock() {
@@ -388,6 +507,41 @@ langSelect.addEventListener('change', () => {
   stationSelect.value = 'ALL';
   applyFilter();
 });
+
+// tags 相關
+if (tagSelect) {
+  tagSelect.addEventListener('change', applyFilter);
+}
+
+if (excludeEnabled && excludeInput) {
+  excludeEnabled.addEventListener('change', () => {
+    excludeInput.disabled = !excludeEnabled.checked;
+
+    if (!excludeEnabled.checked) {
+      excludeInput.value = '';
+    }
+
+    applyFilter();
+  });
+
+  excludeInput.addEventListener('input', applyFilter);
+}
+
+// input 框動作
+if (excludeEnabled && excludeInput) {
+  excludeEnabled.addEventListener('change', () => {
+    excludeInput.disabled = !excludeEnabled.checked;
+
+    if (!excludeEnabled.checked) {
+      excludeInput.value = '';
+    }
+
+    applyFilter();
+  });
+
+  excludeInput.addEventListener('input', applyFilter);
+}
+
 
 // ==========================================
 // 8. 重新整理
