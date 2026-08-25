@@ -205,7 +205,7 @@ function renderList(data) {
         <div class="station-meta">
           <span class="meta-tag">🕒 ${item.time || '未指定'}</span>
           <span class="meta-tag">🗣️ ${item.language || '未註明'}</span>
-          ${item.region ? `<span class="meta-tag">📍 ${item.region}</span>` : ''}
+          ${item.target ? `<span class="meta-tag">📍 ${item.target}</span>` : ''}
           ${item.remarks ? `<span class="meta-tag">📝 ${item.remarks}</span>` : ''}
         </div>
       </div>
