@@ -2,10 +2,10 @@
   {
     "station": "Akashvani 印度德里廣播電台",
     "time": "0745-0915",
-    "frequency": "15280",
+    "frequency": "15410",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "夏季A25",
+    "target": "",
+    "remarks": "",
     "tags": [
       "中文"
     ]
@@ -15,8 +15,8 @@
     "time": "1830-2000",
     "frequency": "15410",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "夏季A25",
+    "target": "",
+    "remarks": "",
     "tags": [
       "中文"
     ]
@@ -24,21 +24,10 @@
   {
     "station": "Akashvani 印度德里廣播電台",
     "time": "0900-1030",
-    "frequency": "11735",
+    "frequency": "11710",
     "language": "藏語",
-    "target": "對華/西藏",
-    "remarks": "夏季A25",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "Akashvani 印度德里廣播電台",
-    "time": "1845-2015",
-    "frequency": "9860",
-    "language": "藏語",
-    "target": "對華/西藏",
-    "remarks": "夏季A25",
+    "target": "",
+    "remarks": "",
     "tags": [
       "中文"
     ]
@@ -48,2240 +37,7 @@
     "time": "1845-2015",
     "frequency": "11865",
     "language": "藏語",
-    "target": "對華/西藏",
-    "remarks": "夏季A25",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0130-0230",
-    "frequency": "7275",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0130-0230",
-    "frequency": "9685",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0130-0230",
-    "frequency": "9695",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0130-0230",
-    "frequency": "11660",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0130-0230",
-    "frequency": "13710",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "7205",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "7255",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "9865",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "13670",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "13690",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "5975",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "6140",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "7215",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "7265",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "7285",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "7325",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "7430",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "9675",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "9720",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "9865",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "11900",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "9880",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "11780",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "11900",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "11975",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "13580",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "13655",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "17690",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "9560",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "9655",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "11650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "11770",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "13580",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "13655",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "15160",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "17690",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "9580",
-    "language": "普通話",
-    "target": "古巴/南美/全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "9825",
-    "language": "普通話",
-    "target": "古巴/南美/全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "11880",
-    "language": "普通話",
-    "target": "古巴/南美/全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "13655",
-    "language": "普通話",
-    "target": "古巴/南美/全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "15160",
-    "language": "普通話",
-    "target": "古巴/南美/全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "17840",
-    "language": "普通話",
-    "target": "古巴/南美/全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "9450",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "11740",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "15160",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "15230",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "17540",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "11740",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "13640",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "15110",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "11740",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "15110",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "15785",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "17840",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "11710",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "15160",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "15230",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "15785",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "17615",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "17650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "17740",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "17840",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "11710",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "11875",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17615",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17740",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17840",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "9880",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "11640",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "15230",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "15560",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "17560",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "17650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "17840",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "7430",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "9460",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "9880",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "11980",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "12005",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "13730",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "13850",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "15250",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "15260",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "15525",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "15560",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "17530",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "17560",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "17840",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "9460",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "9820",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "9880",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "9890",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "11980",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "13850",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "15250",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "15525",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "17530",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "17650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "17840",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "7435",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "9610",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "11750",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "13610",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "13755",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "17650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "7435",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "7440",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "9540",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "9855",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "13610",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "13755",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "15110",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "17650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "7215",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "7435",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "7440",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "9540",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "9855",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "13650",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "17735",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "6040",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "7235",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "7410",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "7435",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "9730",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "12025",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "15410",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "17735",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "6155",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "7235",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "7435",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "9455",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "9560",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "13755",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "17735",
-    "language": "普通話",
-    "target": "全球",
-    "remarks": "華語環球",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "13730",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "15670",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "15590",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "15640",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "15720",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "15630",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "15720",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "13730",
-    "language": "普通話",
-    "target": "大洋洲",
-    "remarks": "DRM實驗頻率, ID: 3F2, 編碼: xHE-AAC",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2200",
-    "frequency": "11790",
-    "language": "普通話",
-    "target": "中東/東北非",
-    "remarks": "環球資訊廣播",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2200",
-    "frequency": "13810",
-    "language": "普通話",
-    "target": "中東/東北非",
-    "remarks": "環球資訊廣播",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "9880",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "南海之聲",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "11895",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "南海之聲",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "9770",
-    "language": "粵語",
-    "target": "東非/南非",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "9800",
-    "language": "粵語",
-    "target": "東非/南非",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0300-0400",
-    "frequency": "9575",
-    "language": "粵語",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0300-0400",
-    "frequency": "11895",
-    "language": "粵語",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "6140",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "7325",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "9460",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "11945",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "17540",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "11820",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "17490",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "9790",
-    "language": "粵語",
-    "target": "東亞/古巴",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "15160",
-    "language": "粵語",
-    "target": "東亞/古巴",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "15230",
-    "language": "粵語",
-    "target": "東亞/古巴",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "15160",
-    "language": "粵語",
-    "target": "東亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "15230",
-    "language": "粵語",
-    "target": "東亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "11640",
-    "language": "粵語",
-    "target": "東亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "15230",
-    "language": "粵語",
-    "target": "東亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "11875",
-    "language": "粵語",
-    "target": "大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "12005",
-    "language": "粵語",
-    "target": "大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "7370",
-    "language": "粵語",
-    "target": "東南亞/大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "9590",
-    "language": "粵語",
-    "target": "東南亞/大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "9645",
-    "language": "粵語",
-    "target": "東南亞/大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "9540",
-    "language": "粵語",
-    "target": "東南亞/大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "9570",
-    "language": "粵語",
-    "target": "東南亞/大洋洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2050",
-    "frequency": "9570",
-    "language": "粵語",
-    "target": "古巴",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "9460",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "9550",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "9610",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "11945",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "11980",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "15425",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "17490",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "17540",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "15425",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "17490",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "11910",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "9655",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2300",
-    "frequency": "11650",
-    "language": "閩南語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0000-0100",
-    "frequency": "9770",
-    "language": "客家話",
-    "target": "東非/南非",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0000-0100",
-    "frequency": "11880",
-    "language": "客家話",
-    "target": "東非/南非",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "9460",
-    "language": "客家話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "9550",
-    "language": "客家話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "9610",
-    "language": "客家話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "17540",
-    "language": "客家話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "15350",
-    "language": "客家話",
-    "target": "南亞/東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "17540",
-    "language": "客家話",
-    "target": "南亞/東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "17510",
-    "language": "客家話",
-    "target": "南亞/東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "17710",
-    "language": "客家話",
-    "target": "南亞/東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0200-0300",
-    "frequency": "11895",
-    "language": "潮州話",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0200-0300",
-    "frequency": "13700",
-    "language": "潮州話",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "15145",
-    "language": "潮州話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17750",
-    "language": "潮州話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "9440",
-    "language": "潮州話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "11875",
-    "language": "潮州話",
-    "target": "東南亞",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2311,10 +67,10 @@
   },
   {
     "station": "KBS World Radio 韓國國際廣播電台",
-    "time": "1930-2030",
+    "time": "1900-2000",
     "frequency": "6095",
     "language": "普通話",
-    "target": "中國/東南亞",
+    "target": "中國",
     "remarks": "",
     "tags": [
       "中文"
@@ -2325,7 +81,7 @@
     "time": "1930-2030",
     "frequency": "9770",
     "language": "普通話",
-    "target": "中國/東南亞",
+    "target": "東南亞",
     "remarks": "",
     "tags": [
       "中文"
@@ -2333,7 +89,7 @@
   },
   {
     "station": "KBS World Radio 韓國國際廣播電台",
-    "time": "2030-2130",
+    "time": "2000-2100",
     "frequency": "6095",
     "language": "普通話",
     "target": "中國",
@@ -2348,7 +104,7 @@
     "frequency": "1170",
     "language": "普通話",
     "target": "不定向",
-    "remarks": "中波MW",
+    "remarks": "",
     "tags": [
       "中文"
     ]
@@ -2358,7 +114,7 @@
     "time": "1410-1430",
     "frequency": "15195",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2367,9 +123,20 @@
   {
     "station": "NHK World-Japan 日本國際傳媒",
     "time": "1800-1820",
-    "frequency": "7375",
+    "frequency": "11855",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "NHK World-Japan 日本國際傳媒",
+    "time": "1840-1850",
+    "frequency": "11855",
+    "language": "普通話",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2380,7 +147,7 @@
     "time": "1920-1940",
     "frequency": "11660",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2391,7 +158,7 @@
     "time": "2000-2020",
     "frequency": "11660",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2402,7 +169,7 @@
     "time": "2040-2100",
     "frequency": "11660",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2413,7 +180,7 @@
     "time": "2120-2140",
     "frequency": "11660",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2424,18 +191,7 @@
     "time": "2200-2220",
     "frequency": "9560",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "NHK World-Japan 日本國際傳媒",
-    "time": "2240-2250",
-    "frequency": "9560",
-    "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -2444,10 +200,54 @@
   {
     "station": "NHK World-Japan 日本國際傳媒",
     "time": "2330-2350",
-    "frequency": "11910",
+    "frequency": "11915",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0430-0500",
+    "frequency": "15390",
+    "language": "普通話",
+    "target": "西非和南大西洋",
+    "remarks": "周二",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0430-0500",
+    "frequency": "15500",
+    "language": "普通話",
+    "target": "北美",
+    "remarks": "周二",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0430-0500",
+    "frequency": "15520",
+    "language": "普通話",
+    "target": "中東和印度洋",
+    "remarks": "周二",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0430-0500",
+    "frequency": "17715",
+    "language": "普通話",
+    "target": "南美",
+    "remarks": "周二",
     "tags": [
       "中文"
     ]
@@ -2457,10 +257,22 @@
     "time": "1200-1230",
     "frequency": "21470",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "昨日節目重播",
+    "target": "",
+    "remarks": "",
     "tags": [
-      "中文"
+      "昨日節目重播"
+    ]
+  },
+  {
+    "station": "RRI 羅馬尼亞國際廣播電台",
+    "time": "1200-1230",
+    "frequency": "17760",
+    "language": "普通話",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "備用",
+      "昨日節目重播"
     ]
   },
   {
@@ -2468,542 +280,597 @@
     "time": "2030-2100",
     "frequency": "17760",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "DRM首播",
+    "target": "",
+    "remarks": "",
     "tags": [
-      "中文"
+      "DRM"
     ]
   },
   {
-    "station": "VOI 印度尼西亞之聲",
+    "station": "RRI 羅馬尼亞國際廣播電台",
+    "time": "2030-2100",
+    "frequency": "17530",
+    "language": "普通話",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "備用"
+    ]
+  },
+  {
+    "station": "RRI-VOI 印度尼西亞之聲",
     "time": "1900-2000",
     "frequency": "3325",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "VOI 印度尼西亞之聲",
+    "station": "RRI-VOI 印度尼西亞之聲",
     "time": "1900-2000",
     "frequency": "4755",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "VOI 印度尼西亞之聲",
+    "station": "RRI-VOI 印度尼西亞之聲",
     "time": "2300-2400",
     "frequency": "3325",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "VOI 印度尼西亞之聲",
+    "station": "RRI-VOI 印度尼西亞之聲",
     "time": "2300-2400",
     "frequency": "4755",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "0100-0110",
+    "station": "RTI 中央廣播電台",
+    "time": "0000-0110",
     "frequency": "6075",
     "language": "普通話",
-    "target": "華中/華南",
-    "remarks": "周六日",
+    "target": "華中",
+    "remarks": "大陸網,周一至五",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "0100-0110",
+    "station": "RTI 中央廣播電台",
+    "time": "0000-0110",
     "frequency": "6145",
     "language": "普通話",
-    "target": "華中/華南",
-    "remarks": "周六日",
+    "target": "華南",
+    "remarks": "大陸網,周一至五",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
     "time": "0700-0730",
     "frequency": "9900",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "節目同華語網",
+    "target": "華北",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
     "time": "0700-0730",
     "frequency": "6105",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "節目同華語網",
+    "target": "華南",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
     "time": "1500-1600",
     "frequency": "11815",
     "language": "普通話",
     "target": "華中",
-    "remarks": "",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "1600-1610",
-    "frequency": "11815",
-    "language": "普通話",
-    "target": "華中",
-    "remarks": "周六日",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
     "time": "1700-1800",
     "frequency": "9595",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "1800-1900",
-    "frequency": "6180",
+    "station": "RTI 中央廣播電台",
+    "time": "1700-1800",
+    "frequency": "9595",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華中",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
     "time": "1800-1900",
     "frequency": "9595",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
+    "time": "1800-1900",
+    "frequency": "9595",
+    "language": "普通話",
+    "target": "華中",
+    "remarks": "大陸網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "1800-1900",
+    "frequency": "11885",
+    "language": "普通話",
+    "target": "華中",
+    "remarks": "大陸網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "1800-1900",
+    "frequency": "6180",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "大陸網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "1800-1900",
     "frequency": "9660",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "1800-1900",
-    "frequency": "11885",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
     "time": "1900-2000",
     "frequency": "6150",
     "language": "普通話",
-    "target": "華中/華南",
-    "remarks": "",
+    "target": "華中",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
+    "station": "RTI 中央廣播電台",
     "time": "1900-2000",
     "frequency": "11885",
     "language": "普通話",
-    "target": "華中/華南",
-    "remarks": "",
+    "target": "華中",
+    "remarks": "大陸網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "2200-次日0100",
+    "station": "RTI 中央廣播電台",
+    "time": "1900-2000",
+    "frequency": "6150",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "大陸網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "2200-2400",
     "frequency": "6075",
     "language": "普通話",
-    "target": "華中/華南",
-    "remarks": "",
+    "target": "華中",
+    "remarks": "大陸網,周一至五",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (大陸網)",
-    "time": "2200-次日0100",
+    "station": "RTI 中央廣播電台",
+    "time": "2200-2400",
     "frequency": "6145",
     "language": "普通話",
-    "target": "華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "大陸網,周一至五",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "0600-0800",
+    "station": "RTI 中央廣播電台",
+    "time": "2200-2330",
     "frequency": "6075",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華中",
+    "remarks": "大陸網,周六日",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "0600-0800",
-    "frequency": "6105",
+    "station": "RTI 中央廣播電台",
+    "time": "2200-2330",
+    "frequency": "6145",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "大陸網,周六日",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "0600-0800",
     "frequency": "9900",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
+    "time": "0600-0800",
+    "frequency": "6075",
+    "language": "普通話",
+    "target": "華中",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "0600-0800",
+    "frequency": "6105",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "1200-1400",
     "frequency": "11815",
     "language": "普通話",
     "target": "華中",
-    "remarks": "",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "1800-1900",
-    "frequency": "6105",
-    "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "1800-1900",
     "frequency": "9555",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "1800-1900",
     "frequency": "9885",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "1900-2000",
+    "station": "RTI 中央廣播電台",
+    "time": "1800-1900",
     "frequency": "6105",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "1900-2000",
-    "frequency": "6180",
-    "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "1900-2000",
     "frequency": "9555",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "1900-2000",
-    "frequency": "9660",
-    "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "1900-2000",
     "frequency": "9680",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "1900-2000",
     "frequency": "9885",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "1900-2000",
-    "frequency": "11605",
+    "frequency": "11615",
     "language": "普通話",
-    "target": "華北/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2000-2100",
+    "station": "RTI 中央廣播電台",
+    "time": "1900-2000",
+    "frequency": "6105",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "1900-2000",
     "frequency": "6180",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
+    "time": "1900-2000",
+    "frequency": "9660",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "2000-2100",
     "frequency": "9555",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2000-2100",
-    "frequency": "9660",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "2000-2100",
     "frequency": "9680",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "2000-2100",
     "frequency": "9885",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2100-2200",
-    "frequency": "6105",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2100-2200",
+    "station": "RTI 中央廣播電台",
+    "time": "2000-2100",
     "frequency": "6180",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
+    "time": "2000-2100",
+    "frequency": "9660",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "2100-2200",
+    "frequency": "9680",
+    "language": "普通話",
+    "target": "華北",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "2100-2200",
     "frequency": "7430",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華中",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
+    "time": "2100-2200",
+    "frequency": "6105",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "2100-2200",
+    "frequency": "6180",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "2100-2200",
     "frequency": "9660",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2100-2200",
-    "frequency": "9680",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "2200-2300",
     "frequency": "6180",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "2200-2300",
     "frequency": "9660",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
-    "time": "2300-2400",
-    "frequency": "6180",
-    "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
     "time": "2300-2400",
     "frequency": "7300",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華北",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音 (華語網)",
+    "station": "RTI 中央廣播電台",
+    "time": "2300-2400",
+    "frequency": "6180",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "華語網",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "2300-2400",
     "frequency": "9660",
     "language": "普通話",
-    "target": "華北/華中/華南",
-    "remarks": "",
+    "target": "華南",
+    "remarks": "華語網",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "1200-1230",
     "frequency": "15320",
     "language": "粵語",
@@ -3014,18 +881,7 @@
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
-    "time": "1800-1830",
-    "frequency": "12065",
-    "language": "粵語",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "1800-1830",
     "frequency": "13825",
     "language": "粵語",
@@ -3036,29 +892,40 @@
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
+    "time": "1800-1830",
+    "frequency": "12065",
+    "language": "粵語",
+    "target": "東南亞",
+    "remarks": "",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "2000-2030",
     "frequency": "6105",
     "language": "粵語",
-    "target": "華南/東南亞",
+    "target": "華南",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "2000-2030",
     "frequency": "9735",
     "language": "粵語",
-    "target": "華南/東南亞",
+    "target": "東南亞",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "2300-2330",
     "frequency": "9540",
     "language": "粵語",
@@ -3069,7 +936,7 @@
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "1230-1300",
     "frequency": "15320",
     "language": "客家話",
@@ -3080,18 +947,7 @@
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
-    "time": "1830-1900",
-    "frequency": "12065",
-    "language": "客家話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "1830-1900",
     "frequency": "13825",
     "language": "客家話",
@@ -3102,29 +958,73 @@
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
+    "time": "1830-1900",
+    "frequency": "12065",
+    "language": "客家話",
+    "target": "東南亞",
+    "remarks": "",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "2030-2100",
     "frequency": "6105",
     "language": "客家話",
-    "target": "華南/東南亞",
+    "target": "華南",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "2030-2100",
     "frequency": "9735",
     "language": "客家話",
-    "target": "華南/東南亞",
+    "target": "東南亞",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
+    "time": "2230-2300",
+    "frequency": "738",
+    "language": "客家話",
+    "target": "",
+    "remarks": "漁業廣播電台轉播,周一至五,MW",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "2230-2300",
+    "frequency": "1143",
+    "language": "客家話",
+    "target": "",
+    "remarks": "漁業廣播電台轉播,周一至五,MW",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
+    "time": "2230-2300",
+    "frequency": "1593",
+    "language": "客家話",
+    "target": "",
+    "remarks": "漁業廣播電台轉播,受同頻干擾,周一至五,MW",
+    "tags": [
+      "中文"
+    ]
+  },
+  {
+    "station": "RTI 中央廣播電台",
     "time": "2330-2400",
     "frequency": "9540",
     "language": "客家話",
@@ -3135,32 +1035,32 @@
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "1700-1800",
     "frequency": "9400",
-    "language": "閩南語(台語)",
-    "target": "菲律賓/東南亞",
+    "language": "閩南語",
+    "target": "菲律賓",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之裝",
+    "station": "RTI 中央廣播電台",
     "time": "1700-1800",
     "frequency": "12065",
-    "language": "閩南語(台語)",
-    "target": "菲律賓/東南亞",
+    "language": "閩南語",
+    "target": "東南亞",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "RTI 中央廣播電台 台灣之音",
+    "station": "RTI 中央廣播電台",
     "time": "2000-2100",
     "frequency": "6150",
-    "language": "閩南語(台語)",
+    "language": "閩南語",
     "target": "華南",
     "remarks": "",
     "tags": [
@@ -3172,32 +1072,32 @@
     "time": "0600-0630",
     "frequency": "7410",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
     "station": "RV 梵蒂岡電台",
     "time": "0600-0630",
-    "frequency": "9695",
+    "frequency": "9580",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
     "station": "RV 梵蒂岡電台",
     "time": "0600-0630",
-    "frequency": "11895",
+    "frequency": "11910",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -3205,10 +1105,10 @@
     "time": "1900-1945",
     "frequency": "21745",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "周六",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -3216,10 +1116,10 @@
     "time": "1900-1945",
     "frequency": "21760",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "周六",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -3227,10 +1127,10 @@
     "time": "1900-1945",
     "frequency": "21775",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "周六",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -3238,7 +1138,7 @@
     "time": "1900-2000",
     "frequency": "17620",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -3249,7 +1149,7 @@
     "time": "1000-1100",
     "frequency": "9465",
     "language": "維吾爾語",
-    "target": "對華/新疆",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
@@ -3258,197 +1158,32 @@
   {
     "station": "TRT 土耳其之聲",
     "time": "2130-2200",
-    "frequency": "17690",
+    "frequency": "13635",
     "language": "哈薩克語",
-    "target": "對華/中亞",
+    "target": "",
     "remarks": "",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "VOK 朝鮮之聲",
-    "time": "0500-0700",
-    "frequency": "9875",
+    "station": "VOA 美國之音",
+    "time": "0500-0800",
+    "frequency": "9535",
     "language": "普通話",
-    "target": "中國關內",
-    "remarks": "",
+    "target": "",
+    "remarks": "周二至六",
     "tags": [
       "中文"
     ]
   },
   {
-    "station": "VOK 朝鮮之聲",
-    "time": "0500-0700",
-    "frequency": "11635",
+    "station": "VOA 美國之音",
+    "time": "0500-0800",
+    "frequency": "11590",
     "language": "普通話",
-    "target": "中國關內",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1900-2000",
-    "frequency": "7220",
-    "language": "普通話",
-    "target": "中國關內",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1900-2000",
-    "frequency": "9445",
-    "language": "普通話",
-    "target": "中國關內",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0500-0700",
-    "frequency": "7235",
-    "language": "普通話",
-    "target": "中國東北",
-    "remarks": "ND全向",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0500-0700",
-    "frequency": "9445",
-    "language": "普通話",
-    "target": "中國東北",
-    "remarks": "ND全向",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1300-1400",
-    "frequency": "7220",
-    "language": "普通話",
-    "target": "中國東北",
-    "remarks": "ND全向",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1300-1400",
-    "frequency": "9445",
-    "language": "普通話",
-    "target": "中國東北",
-    "remarks": "ND全向",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1300-1400",
-    "frequency": "9730",
-    "language": "普通話",
-    "target": "中國東北",
-    "remarks": "ND全向",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1600-1700",
-    "frequency": "7220",
-    "language": "普通話",
-    "target": "中國東北",
-    "remarks": "首播, 9445播出異常(法語/干擾)",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1600-1700",
-    "frequency": "9445",
-    "language": "普通話",
-    "target": "中國東北",
-    "remarks": "首播, 9445播出異常(法語/干擾)",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1100-1200",
-    "frequency": "13650",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1100-1200",
-    "frequency": "15105",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1400-1500",
-    "frequency": "13650",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1400-1500",
-    "frequency": "15105",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2100-2200",
-    "frequency": "11735",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2100-2200",
-    "frequency": "13650",
-    "language": "普通話",
-    "target": "東南亞",
-    "remarks": "",
+    "target": "",
+    "remarks": "周二至六",
     "tags": [
       "中文"
     ]
@@ -3524,7 +1259,7 @@
     "time": "0500-0700",
     "frequency": "15625",
     "language": "普通話",
-    "target": "對華",
+    "target": "華北",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3535,7 +1270,7 @@
     "time": "0700-0800",
     "frequency": "17530",
     "language": "普通話",
-    "target": "對華",
+    "target": "華北",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3546,7 +1281,7 @@
     "time": "0700-0800",
     "frequency": "17620",
     "language": "普通話",
-    "target": "對華",
+    "target": "華北華東",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3555,9 +1290,9 @@
   {
     "station": "AWR 復臨信徒世界廣播電台",
     "time": "1800-1900",
-    "frequency": "15290",
+    "frequency": "15400",
     "language": "普通話",
-    "target": "對華",
+    "target": "華南",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3566,9 +1301,9 @@
   {
     "station": "AWR 復臨信徒世界廣播電台",
     "time": "1800-1900",
-    "frequency": "15450",
+    "frequency": "15430",
     "language": "普通話",
-    "target": "對華",
+    "target": "華北",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3577,9 +1312,75 @@
   {
     "station": "AWR 復臨信徒世界廣播電台",
     "time": "1900-2000",
+    "frequency": "11700",
+    "language": "普通話",
+    "target": "華北",
+    "remarks": "",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "AWR 復臨信徒世界廣播電台",
+    "time": "1900-2000",
+    "frequency": "15400",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "AWR 復臨信徒世界廣播電台",
+    "time": "2000-2100",
+    "frequency": "9610",
+    "language": "普通話",
+    "target": "華北",
+    "remarks": "周五",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "AWR 復臨信徒世界廣播電台",
+    "time": "2000-2100",
+    "frequency": "15530",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "周五",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "AWR 復臨信徒世界廣播電台",
+    "time": "2000-2030",
+    "frequency": "9610",
+    "language": "普通話",
+    "target": "華北",
+    "remarks": "周六",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "AWR 復臨信徒世界廣播電台",
+    "time": "2000-2030",
+    "frequency": "15530",
+    "language": "普通話",
+    "target": "華南",
+    "remarks": "周六",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "AWR 復臨信徒世界廣播電台",
+    "time": "2100-2200",
     "frequency": "11850",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3587,66 +1388,11 @@
   },
   {
     "station": "AWR 復臨信徒世界廣播電台",
-    "time": "1900-2000",
-    "frequency": "15290",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "AWR 復臨信徒世界廣播電台",
-    "time": "2000-2030",
-    "frequency": "9610",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周五六",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "AWR 復臨信徒世界廣播電台",
-    "time": "2000-2030",
-    "frequency": "15530",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周五六",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "AWR 復臨信徒世界廣播電台",
-    "time": "2030-2100",
-    "frequency": "9610",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "AWR 復臨信徒世界廣播電台",
-    "time": "2030-2100",
-    "frequency": "15530",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "AWR 復臨信徒世界廣播電台",
-    "time": "2100-2130",
+    "time": "2100-2200",
     "frequency": "15600",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "周一至五",
+    "target": "西部",
+    "remarks": "",
     "tags": [
       "宗教"
     ]
@@ -3656,7 +1402,7 @@
     "time": "2200-2230",
     "frequency": "15440",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3667,7 +1413,7 @@
     "time": "2200-2230",
     "frequency": "15710",
     "language": "普通話",
-    "target": "對華",
+    "target": "西部",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3678,7 +1424,7 @@
     "time": "2230-2300",
     "frequency": "15710",
     "language": "普通話",
-    "target": "對華",
+    "target": "西部",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3689,7 +1435,7 @@
     "time": "2030-2100",
     "frequency": "9610",
     "language": "粵語",
-    "target": "對華",
+    "target": "華北",
     "remarks": "除周五",
     "tags": [
       "宗教"
@@ -3700,7 +1446,7 @@
     "time": "2030-2100",
     "frequency": "15530",
     "language": "粵語",
-    "target": "對華",
+    "target": "華南",
     "remarks": "除周五",
     "tags": [
       "宗教"
@@ -3711,7 +1457,7 @@
     "time": "2000-2030",
     "frequency": "9610",
     "language": "閩南語",
-    "target": "對華",
+    "target": "華北",
     "remarks": "除周五六",
     "tags": [
       "宗教"
@@ -3722,7 +1468,7 @@
     "time": "2000-2030",
     "frequency": "15530",
     "language": "閩南語",
-    "target": "對華",
+    "target": "華南",
     "remarks": "除周五六",
     "tags": [
       "宗教"
@@ -3730,10 +1476,10 @@
   },
   {
     "station": "AWR 復臨信徒世界廣播電台",
-    "time": "2100-2130",
+    "time": "2030-2100",
     "frequency": "15600",
     "language": "維吾爾語",
-    "target": "對華/新疆",
+    "target": "西部",
     "remarks": "周六日",
     "tags": [
       "宗教"
@@ -3744,173 +1490,151 @@
     "time": "2130-2200",
     "frequency": "15505",
     "language": "傈僳語",
-    "target": "對華/西南",
+    "target": "華南",
     "remarks": "",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台·第一台",
+    "station": "FEBC 遠東廣播公司",
     "time": "0700-0900",
     "frequency": "12070",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "",
+    "target": "",
+    "remarks": "良友電台·第一台",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台·第一台",
+    "station": "FEBC 遠東廣播公司",
     "time": "1830-2200",
     "frequency": "9400",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "",
+    "target": "",
+    "remarks": "良友電台·第一台",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台·第一台",
+    "station": "FEBC 遠東廣播公司",
     "time": "2200-2400",
     "frequency": "11600",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "",
+    "target": "",
+    "remarks": "良友電台·第一台",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台·第三台",
+    "station": "FEBC 遠東廣播公司",
     "time": "0630-0830",
     "frequency": "9405",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "",
+    "target": "",
+    "remarks": "良友電台·第三台",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台·iRadio",
+    "station": "FEBC 遠東廣播公司",
     "time": "1800-2400",
     "frequency": "15515",
     "language": "普通話",
-    "target": "對華",
-    "remarks": "愛廣播頻道",
+    "target": "",
+    "remarks": "良友電台·iRadio 愛廣播頻道",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台(香港)",
-    "time": "2100-2130",
-    "frequency": "11600",
-    "language": "白族語",
-    "target": "對華/雲南",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 良友電台(香港)",
-    "time": "1730-1800",
-    "frequency": "15450",
-    "language": "蒙古語",
-    "target": "對華/內蒙",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 良友電台(香港)",
+    "station": "FEBC 遠東廣播公司",
     "time": "1800-1830",
     "frequency": "9400",
-    "language": "回民廣播(普通話)",
-    "target": "對華/西北",
-    "remarks": "",
+    "language": "普通話",
+    "target": "",
+    "remarks": "良友電台(香港); 回民廣播",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台(香港)",
+    "station": "FEBC 遠東廣播公司",
     "time": "1700-1730",
     "frequency": "15450",
     "language": "康巴藏語",
-    "target": "對華/藏區",
-    "remarks": "",
+    "target": "",
+    "remarks": "良友電台(香港)",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC 良友電台(香港)",
-    "time": "2100-2130",
-    "frequency": "12120",
-    "language": "傈僳語(Lisu)",
-    "target": "對華/西南",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 良友電台(香港)",
-    "time": "2130-2200",
-    "frequency": "11600",
-    "language": "雲南話",
-    "target": "對華/雲南",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC 良友電台(香港)",
+    "station": "FEBC 遠東廣播公司",
     "time": "2230-2300",
     "frequency": "15540",
     "language": "維吾爾語",
-    "target": "對華/新疆",
-    "remarks": "",
+    "target": "",
+    "remarks": "良友電台(香港)",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "FEBC 遠東廣播公司",
+    "time": "1730-1800",
+    "frequency": "15450",
+    "language": "蒙古語",
+    "target": "",
+    "remarks": "良友電台(香港)",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "FEBC 遠東廣播公司",
+    "time": "2130-2200",
+    "frequency": "11600",
+    "language": "雲南話",
+    "target": "",
+    "remarks": "良友電台(香港)",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "FEBC 遠東廣播公司",
+    "time": "2100-2130",
+    "frequency": "11600",
+    "language": "白族語",
+    "target": "",
+    "remarks": "良友電台(香港)",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "FEBC 遠東廣播公司",
+    "time": "2100-2130",
+    "frequency": "12120",
+    "language": "傈僳語",
+    "target": "",
+    "remarks": "良友電台(香港); Lisu",
     "tags": [
       "宗教"
     ]
   },
   {
     "station": "FEBC Thailand",
-    "time": "0845-0900",
-    "frequency": "15435",
-    "language": "傣那語(德宏傣語)",
-    "target": "對華/滇西",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC Thailand",
-    "time": "0745-0815",
-    "frequency": "12055",
-    "language": "傣仂語(西雙版納傣語)",
-    "target": "對華/滇南",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FEBC Thailand",
-    "time": "1830-1900",
-    "frequency": "12095",
-    "language": "傣仂語(西雙版納傣語)",
-    "target": "對華/滇南",
-    "remarks": "",
+    "time": "2000-2030",
+    "frequency": "15215",
+    "language": "藏語",
+    "target": "",
+    "remarks": "周日一二",
     "tags": [
       "宗教"
     ]
@@ -3920,7 +1644,7 @@
     "time": "0700-0730",
     "frequency": "12095",
     "language": "苗語",
-    "target": "對華/西南",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3931,7 +1655,7 @@
     "time": "1900-1930",
     "frequency": "12095",
     "language": "苗語",
-    "target": "對華/西南",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -3942,8 +1666,41 @@
     "time": "2100-2130",
     "frequency": "12095",
     "language": "黑苗語",
-    "target": "對華/西南",
-    "remarks": "",
+    "target": "",
+    "remarks": "Hmong-Black",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "FEBC Thailand",
+    "time": "0845-0900",
+    "frequency": "15435",
+    "language": "傣那語",
+    "target": "",
+    "remarks": "德宏傣語; Tai-Nua",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "FEBC Thailand",
+    "time": "0745-0815",
+    "frequency": "12055",
+    "language": "傣仂語",
+    "target": "",
+    "remarks": "西雙版納傣語; Tai-Lue",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "FEBC Thailand",
+    "time": "1830-1900",
+    "frequency": "12095",
+    "language": "傣仂語",
+    "target": "",
+    "remarks": "西雙版納傣語; Tai-Lue",
     "tags": [
       "宗教"
     ]
@@ -3953,8 +1710,8 @@
     "time": "0815-0845",
     "frequency": "12055",
     "language": "拉祜語",
-    "target": "對華/滇西南",
-    "remarks": "",
+    "target": "",
+    "remarks": "Lahu",
     "tags": [
       "宗教"
     ]
@@ -3964,8 +1721,8 @@
     "time": "2200-2230",
     "frequency": "11750",
     "language": "拉祜語",
-    "target": "對華/滇西南",
-    "remarks": "",
+    "target": "",
+    "remarks": "Lahu",
     "tags": [
       "宗教"
     ]
@@ -3975,8 +1732,8 @@
     "time": "0700-0730",
     "frequency": "9875",
     "language": "瑤族勉語",
-    "target": "對華/南方",
-    "remarks": "",
+    "target": "",
+    "remarks": "Iu Mien",
     "tags": [
       "宗教"
     ]
@@ -3986,8 +1743,8 @@
     "time": "0730-0800",
     "frequency": "9875",
     "language": "瑤族勉語",
-    "target": "對華/南方",
-    "remarks": "周二至六",
+    "target": "",
+    "remarks": "周二至六; Iu Mien",
     "tags": [
       "宗教"
     ]
@@ -3997,8 +1754,8 @@
     "time": "1830-1900",
     "frequency": "13870",
     "language": "瑤族勉語",
-    "target": "對華/南方",
-    "remarks": "周一至五",
+    "target": "",
+    "remarks": "周一至五; Iu Mien",
     "tags": [
       "宗教"
     ]
@@ -4008,8 +1765,8 @@
     "time": "2000-2030",
     "frequency": "12095",
     "language": "瑤族勉語",
-    "target": "對華/南方",
-    "remarks": "",
+    "target": "",
+    "remarks": "Iu Mien",
     "tags": [
       "宗教"
     ]
@@ -4019,19 +1776,19 @@
     "time": "0845-0900",
     "frequency": "12055",
     "language": "佤語",
-    "target": "對華/滇西南",
-    "remarks": "",
+    "target": "",
+    "remarks": "Wa",
     "tags": [
       "宗教"
     ]
   },
   {
-    "station": "FEBC Thailand",
-    "time": "2000-2030",
-    "frequency": "15215",
-    "language": "藏語",
-    "target": "對華/藏區",
-    "remarks": "周日一二",
+    "station": "Hope Radio",
+    "time": "1030-1100",
+    "frequency": "15680",
+    "language": "普通話",
+    "target": "",
+    "remarks": "周六",
     "tags": [
       "宗教"
     ]
@@ -4041,10 +1798,21 @@
     "time": "1630-1645",
     "frequency": "9965",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "周五",
     "tags": [
-      "中文"
+      "宗教"
+    ]
+  },
+  {
+    "station": "Hope Radio",
+    "time": "1830-1915",
+    "frequency": "9930",
+    "language": "普通話",
+    "target": "",
+    "remarks": "周四",
+    "tags": [
+      "宗教"
     ]
   },
   {
@@ -4052,19 +1820,41 @@
     "time": "1945-2000",
     "frequency": "9930",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "周一至五",
     "tags": [
-      "中文"
+      "宗教"
     ]
   },
   {
-    "station": "Reach Beyond Australia 超越電台",
-    "time": "2215-2230",
-    "frequency": "11870",
-    "language": "藏語",
-    "target": "對華/藏區",
+    "station": "Hope Radio",
+    "time": "2000-2030",
+    "frequency": "9930",
+    "language": "普通話",
+    "target": "",
     "remarks": "周二",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "Hope Radio",
+    "time": "2015-2030",
+    "frequency": "9930",
+    "language": "普通話",
+    "target": "",
+    "remarks": "周一",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "Reach Beyond Australia",
+    "time": "2145-2200",
+    "frequency": "15400",
+    "language": "藏語",
+    "target": "",
+    "remarks": "周二、周五",
     "tags": [
       "宗教"
     ]
@@ -4072,9 +1862,9 @@
   {
     "station": "TVOM 殉道者之聲",
     "time": "0500-0530",
-    "frequency": "7625",
+    "frequency": "7650",
     "language": "普通話",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -4083,152 +1873,9 @@
   {
     "station": "TVOM 殉道者之聲",
     "time": "2300-2330",
-    "frequency": "7625",
+    "frequency": "7650",
     "language": "普通話",
     "target": "對華",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "1900-1930",
-    "frequency": "15230",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周六, DRM",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "1915-1945",
-    "frequency": "12160",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周一至五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "1945-2000",
-    "frequency": "12160",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "1945-2045",
-    "frequency": "9910",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周日",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2000-2015",
-    "frequency": "12160",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周一至五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2100-2140",
-    "frequency": "9975",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周一至五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2100-2145",
-    "frequency": "9975",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周日",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2100-2200",
-    "frequency": "9975",
-    "language": "普通話",
-    "target": "對華",
-    "remarks": "周六",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2045-2100",
-    "frequency": "9910",
-    "language": "普通話-回族",
-    "target": "對華/西北",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2030-2045",
-    "frequency": "9910",
-    "language": "雲南話",
-    "target": "對華/雲南",
-    "remarks": "周一至五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2245-2300",
-    "frequency": "11590",
-    "language": "哈薩克語",
-    "target": "對華/中亞",
-    "remarks": "",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "1845-1900",
-    "frequency": "15120",
-    "language": "外蒙古語",
-    "target": "蒙古/對華",
-    "remarks": "周一至六",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "1900-1915",
-    "frequency": "15120",
-    "language": "內蒙古語",
-    "target": "對華/內蒙",
     "remarks": "",
     "tags": [
       "宗教"
@@ -4240,9 +1887,9 @@
     "frequency": "11780",
     "language": "普通話",
     "target": "華北",
-    "remarks": "北美阿拉斯加KNLS發射",
+    "remarks": "KNLS",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -4251,9 +1898,9 @@
     "frequency": "11875",
     "language": "普通話",
     "target": "華東",
-    "remarks": "北美阿拉斯加KNLS發射",
+    "remarks": "KNLS",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -4262,31 +1909,20 @@
     "frequency": "9685",
     "language": "普通話",
     "target": "華東",
-    "remarks": "北美阿拉斯加KNLS發射",
+    "remarks": "KNLS",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
     "station": "WCB 生命之光廣播電台",
-    "time": "2100-2200",
+    "time": "2100-2300",
     "frequency": "9615",
     "language": "普通話",
     "target": "華北",
-    "remarks": "北美阿拉斯加KNLS發射",
+    "remarks": "KNLS",
     "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "WCB 生命之光廣播電台",
-    "time": "2200-2300",
-    "frequency": "7395",
-    "language": "普通話",
-    "target": "華北",
-    "remarks": "北美阿拉斯加KNLS發射",
-    "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -4295,9 +1931,9 @@
     "frequency": "9700",
     "language": "普通話",
     "target": "華北",
-    "remarks": "北美阿拉斯加KNLS發射",
+    "remarks": "KNLS",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -4306,9 +1942,9 @@
     "frequency": "11610",
     "language": "普通話",
     "target": "歐洲",
-    "remarks": "非洲馬達加斯加MWV發射",
+    "remarks": "MWV",
     "tags": [
-      "宗教"
+      "中文"
     ]
   },
   {
@@ -4317,36 +1953,14 @@
     "frequency": "17530",
     "language": "普通話",
     "target": "東南亞",
-    "remarks": "非洲馬達加斯加MWV發射",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "FHBS 復興廣播電台",
-    "time": "1200-2100",
-    "frequency": "9410",
-    "language": "普通話",
-    "target": "對華/台灣",
-    "remarks": "",
-    "tags": [
-      "中文"
-    ]
-  },
-  {
-    "station": "FHBS 復興廣播電台",
-    "time": "1200-2100",
-    "frequency": "15375",
-    "language": "普通話",
-    "target": "對華/台灣",
-    "remarks": "",
+    "remarks": "MWV",
     "tags": [
       "中文"
     ]
   },
   {
     "station": "MRTV 緬甸廣播電視台",
-    "time": "1600-1730",
+    "time": "0730-0900",
     "frequency": "5915",
     "language": "雲南話(果敢話)",
     "target": "對華/滇緬",
@@ -4361,7 +1975,7 @@
     "frequency": "13825",
     "language": "英語",
     "target": "東南亞",
-    "remarks": "國內部分地區可收",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -4370,10 +1984,10 @@
   {
     "station": "BBC World Service",
     "time": "0800-1000",
-    "frequency": "9750",
+    "frequency": "9590",
     "language": "英語",
     "target": "南亞",
-    "remarks": "國內部分地區可收",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -4382,10 +1996,10 @@
   {
     "station": "BBC World Service",
     "time": "0800-1000",
-    "frequency": "12095",
+    "frequency": "11730",
     "language": "英語",
     "target": "南亞",
-    "remarks": "國內部分地區可收",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -4396,7 +2010,7 @@
     "time": "2000-2100",
     "frequency": "15295",
     "language": "英語",
-    "target": "南亞/東南亞",
+    "target": "南亞",
     "remarks": "",
     "tags": [
       "外語",
@@ -4406,9 +2020,9 @@
   {
     "station": "BBC World Service",
     "time": "2000-2100",
-    "frequency": "17825",
+    "frequency": "17745",
     "language": "英語",
-    "target": "南亞/東南亞",
+    "target": "南亞",
     "remarks": "",
     "tags": [
       "外語",
@@ -4420,7 +2034,7 @@
     "time": "2000-2100",
     "frequency": "21565",
     "language": "英語",
-    "target": "南亞/東南亞",
+    "target": "東南亞",
     "remarks": "",
     "tags": [
       "外語",
@@ -4432,7 +2046,7 @@
     "time": "2100-2200",
     "frequency": "11830",
     "language": "英語",
-    "target": "南亞/東南亞",
+    "target": "南亞",
     "remarks": "",
     "tags": [
       "外語",
@@ -4444,7 +2058,7 @@
     "time": "2100-2200",
     "frequency": "15295",
     "language": "英語",
-    "target": "南亞/東南亞",
+    "target": "南亞",
     "remarks": "",
     "tags": [
       "外語",
@@ -4456,7 +2070,7 @@
     "time": "2100-2200",
     "frequency": "21565",
     "language": "英語",
-    "target": "南亞/東南亞",
+    "target": "東南亞",
     "remarks": "",
     "tags": [
       "外語",
@@ -4466,7 +2080,7 @@
   {
     "station": "BBC World Service",
     "time": "2300-2400",
-    "frequency": "21540",
+    "frequency": "17575",
     "language": "英語",
     "target": "南亞",
     "remarks": "DRM",
@@ -4476,2375 +2090,173 @@
     ]
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "6060",
+    "frequency": "4905",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "6175",
+    "frequency": "4920",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "7235",
+    "frequency": "6025",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "9570",
+    "frequency": "6110",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "9880",
+    "frequency": "6130",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "11900",
+    "frequency": "6200",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "11940",
+    "frequency": "7255",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "0000-0100",
-    "frequency": "11965",
+    "frequency": "7385",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0000-0100",
-    "frequency": "13760",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
+    "time": "1500-1600",
+    "frequency": "4905",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0000-0100",
-    "frequency": "15250",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
+    "time": "1500-1600",
+    "frequency": "4920",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "6060",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
+    "time": "1500-1600",
+    "frequency": "6025",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "6140",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
+    "time": "1500-1600",
+    "frequency": "6130",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "6165",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
+    "time": "1500-1600",
+    "frequency": "6200",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "6175",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
+    "time": "1500-1600",
+    "frequency": "9490",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "7235",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "7330",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "7410",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "7420",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "9570",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "9880",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "12015",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0100-0200",
-    "frequency": "13760",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0200-0300",
-    "frequency": "9600",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0200-0300",
-    "frequency": "13760",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0300-0400",
-    "frequency": "7295",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0300-0400",
-    "frequency": "9440",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "5985",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "7295",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "7415",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "9440",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "9600",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "11640",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "11770",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0400-0500",
-    "frequency": "13630",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0500-0530",
-    "frequency": "7205",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0500-0530",
-    "frequency": "7325",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0500-0530",
-    "frequency": "7415",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0500-0530",
-    "frequency": "9600",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0500-0530",
-    "frequency": "11640",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0500-0530",
-    "frequency": "11770",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0500-0530",
-    "frequency": "13630",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0530-0600",
-    "frequency": "7205",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0530-0600",
-    "frequency": "7325",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0530-0600",
-    "frequency": "7415",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0530-0600",
-    "frequency": "9600",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0530-0600",
-    "frequency": "11770",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0600-0700",
-    "frequency": "9590",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "5990",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "6160",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "6180",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "7350",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "11690",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "11790",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0700-0800",
-    "frequency": "11955",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "6075",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "6180",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "7350",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "9700",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "11865",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "13750",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "15125",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0800-0900",
-    "frequency": "17740",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "6180",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "9535",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
+    "time": "1500-1600",
     "frequency": "9580",
     "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "11770",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "13640",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "15125",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "17640",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "0900-1000",
-    "frequency": "17740",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "11770",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1000-1100",
-    "frequency": "13640",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "9790",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "12000",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "13590",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "15110",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "15785",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1100-1200",
-    "frequency": "17840",
-    "language": "英語",
-    "target": "全球/古巴",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "13590",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "15785",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "17730",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "17840",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1200-1300",
-    "frequency": "17855",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "11895",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "15350",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "15465",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "17510",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "17540",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "17730",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1300-1400",
-    "frequency": "17855",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "11870",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "11895",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "15145",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "15350",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "15465",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "17510",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "17540",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1400-1500",
-    "frequency": "17710",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
+    "station": "China Xizang Radio and Television (西藏廣播電視台)",
     "time": "1500-1600",
-    "frequency": "11895",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "13660",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "15350",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "15465",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17490",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17540",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17670",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1500-1600",
-    "frequency": "17710",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "11710",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "11895",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "15350",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "15465",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "17490",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "17540",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1600-1700",
-    "frequency": "17670",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "11710",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "11905",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "13800",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "15350",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "17490",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "17570",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "17650",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1700-1800",
-    "frequency": "17750",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "11635",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "11895",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "11905",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "13580",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "13590",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "13720",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "15260",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "15350",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "17490",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1800-1900",
-    "frequency": "17750",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "5955",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "9500",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "11650",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "11795",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "13590",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "13720",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "15660",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "1900-2000",
-    "frequency": "17490",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "5955",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "9460",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "9500",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "9600",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "9645",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
     "frequency": "9730",
     "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "9760",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "11650",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "11760",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "11980",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "15555",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "15590",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "15660",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2000-2100",
-    "frequency": "17490",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "5955",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "9500",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "9730",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "9765",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "9800",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "9870",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "11760",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "11910",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "11980",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "13670",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "13755",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2100-2200",
-    "frequency": "15590",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "5955",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "9765",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "9870",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "11675",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "11765",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "11815",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "13710",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2200-2230",
-    "frequency": "15590",
-    "language": "英語",
-    "target": "全球",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "5955",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "9765",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "9870",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "11675",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "11765",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "11815",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "13685",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "13710",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "15590",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2230-2300",
-    "frequency": "17630",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "5955",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "7325",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "7445",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "9675",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "9870",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "9880",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "11610",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "13630",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "13640",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "13685",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "15245",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
-    "time": "2300-0000",
-    "frequency": "17630",
-    "language": "英語",
-    "target": "全球/馬里",
-    "remarks": "CGTN Radio",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "CRI 中國國際廣播電台",
+    "station": "CRI - 南海之聲",
     "time": "1400-1500",
     "frequency": "11925",
     "language": "英語",
-    "target": "南海/東南亞",
-    "remarks": "The Voice of the South China Sea",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
-    "station": "CRI 中國國際廣播電台",
+    "station": "CRI - 南海之聲",
     "time": "1400-1500",
     "frequency": "13645",
     "language": "英語",
-    "target": "南海/東南亞",
-    "remarks": "The Voice of the South China Sea",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "target": "",
+    "remarks": "",
+    "tags": []
   },
   {
     "station": "KBS World Radio 韓國國際廣播電台",
     "time": "0000-0100",
     "frequency": "9515",
     "language": "英語",
-    "target": "歐洲/東南亞",
+    "target": "歐洲",
     "remarks": "",
     "tags": [
       "外語",
@@ -6856,7 +2268,7 @@
     "time": "0000-0100",
     "frequency": "9640",
     "language": "英語",
-    "target": "歐洲/東南亞",
+    "target": "東南亞",
     "remarks": "",
     "tags": [
       "外語",
@@ -6890,6 +2302,18 @@
   {
     "station": "KBS World Radio 韓國國際廣播電台",
     "time": "1800-1900",
+    "frequency": "11795",
+    "language": "英語",
+    "target": "南美",
+    "remarks": "",
+    "tags": [
+      "外語",
+      "英語"
+    ]
+  },
+  {
+    "station": "KBS World Radio 韓國國際廣播電台",
+    "time": "2100-2200",
     "frequency": "9570",
     "language": "英語",
     "target": "東南亞",
@@ -6902,21 +2326,9 @@
   {
     "station": "KBS World Radio 韓國國際廣播電台",
     "time": "2100-2200",
-    "frequency": "9570",
-    "language": "英語",
-    "target": "東南亞/北美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "KBS World Radio 韓國國際廣播電台",
-    "time": "2100-2200",
     "frequency": "15575",
     "language": "英語",
-    "target": "東南亞/北美",
+    "target": "北美",
     "remarks": "",
     "tags": [
       "外語",
@@ -6940,7 +2352,7 @@
     "time": "2300-2400",
     "frequency": "9515",
     "language": "英語",
-    "target": "歐洲/印度",
+    "target": "歐洲",
     "remarks": "",
     "tags": [
       "外語",
@@ -6952,7 +2364,7 @@
     "time": "2300-2400",
     "frequency": "9785",
     "language": "英語",
-    "target": "歐洲/印度",
+    "target": "印度",
     "remarks": "",
     "tags": [
       "外語",
@@ -6962,22 +2374,68 @@
   {
     "station": "NHK World-Japan 日本國際傳媒",
     "time": "2200-2230",
-    "frequency": "11815",
+    "frequency": "11800",
     "language": "英語",
-    "target": "東南亞",
+    "target": "",
     "remarks": "",
+    "tags": [
+      "周一至五"
+    ]
+  },
+  {
+    "station": "NHK World-Japan 日本國際傳媒",
+    "time": "2200-2210",
+    "frequency": "11800",
+    "language": "英語",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "周六日"
+    ]
+  },
+  {
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0600-0700",
+    "frequency": "15390",
+    "language": "英語",
+    "target": "西非和南大西洋",
+    "remarks": "周四",
     "tags": [
       "外語",
       "英語"
     ]
   },
   {
-    "station": "Radio Exterior de España",
-    "time": "0600-0630",
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0600-0700",
+    "frequency": "15500",
+    "language": "英語",
+    "target": "北美",
+    "remarks": "周四",
+    "tags": [
+      "外語",
+      "英語"
+    ]
+  },
+  {
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0600-0700",
     "frequency": "15520",
     "language": "英語",
-    "target": "中東/印度洋",
-    "remarks": "周二四六",
+    "target": "中東和印度洋",
+    "remarks": "周四",
+    "tags": [
+      "外語",
+      "英語"
+    ]
+  },
+  {
+    "station": "REE 西班牙對外廣播電台",
+    "time": "0600-0700",
+    "frequency": "17715",
+    "language": "英語",
+    "target": "南美",
+    "remarks": "周四",
     "tags": [
       "外語",
       "英語"
@@ -6997,11 +2455,11 @@
   },
   {
     "station": "RNZ Pacific (RNZI)",
-    "time": "0500-1400",
+    "time": "0500-1300",
     "frequency": "17675",
     "language": "英語",
     "target": "太平洋",
-    "remarks": "每月首周四0630-1400發射機維護",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7009,8 +2467,8 @@
   },
   {
     "station": "RNZ Pacific (RNZI)",
-    "time": "1400-1600",
-    "frequency": "11725",
+    "time": "1300-1500",
+    "frequency": "13690",
     "language": "英語",
     "target": "太平洋",
     "remarks": "",
@@ -7021,19 +2479,7 @@
   },
   {
     "station": "RNZ Pacific (RNZI)",
-    "time": "1600-1900",
-    "frequency": "7425",
-    "language": "英語",
-    "target": "太平洋",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "RNZ Pacific (RNZI)",
-    "time": "1600-1900",
+    "time": "1500-1900",
     "frequency": "9700",
     "language": "英語",
     "target": "太平洋",
@@ -7045,11 +2491,11 @@
   },
   {
     "station": "RNZ Pacific (RNZI)",
-    "time": "1900-2100",
-    "frequency": "7425",
+    "time": "1900-2200",
+    "frequency": "7245",
     "language": "英語",
-    "target": "所羅門群島/太平洋",
-    "remarks": "",
+    "target": "所羅門群島",
+    "remarks": "周一至五",
     "tags": [
       "外語",
       "英語"
@@ -7057,11 +2503,11 @@
   },
   {
     "station": "RNZ Pacific (RNZI)",
-    "time": "1900-2100",
-    "frequency": "9700",
+    "time": "1900-2200",
+    "frequency": "7245",
     "language": "英語",
-    "target": "所羅門群島/太平洋",
-    "remarks": "",
+    "target": "太平洋",
+    "remarks": "周六日",
     "tags": [
       "外語",
       "英語"
@@ -7069,11 +2515,11 @@
   },
   {
     "station": "RNZ Pacific (RNZI)",
-    "time": "2100-次日0100",
+    "time": "2200-0050",
     "frequency": "7440",
     "language": "英語",
     "target": "太平洋",
-    "remarks": "",
+    "remarks": "次日0050",
     "tags": [
       "外語",
       "英語"
@@ -7082,142 +2528,66 @@
   {
     "station": "RRI 羅馬尼亞國際廣播電台",
     "time": "0600-0700",
+    "frequency": "13580",
+    "language": "英語",
+    "target": "",
+    "remarks": "",
+    "tags": []
+  },
+  {
+    "station": "RRI 羅馬尼亞國際廣播電台",
+    "time": "0600-0700",
     "frequency": "11650",
     "language": "英語",
-    "target": "對華/全球",
+    "target": "",
     "remarks": "",
     "tags": [
-      "外語",
-      "英語"
+      "備用"
     ]
   },
   {
-    "station": "VOK 朝鮮之聲",
-    "time": "0000-0100",
-    "frequency": "9890",
+    "station": "Radyo Pilipinas World Service",
+    "time": "1000-1130",
+    "frequency": "15640",
     "language": "英語",
-    "target": "中東北非",
+    "target": "",
     "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "tags": []
   },
   {
-    "station": "VOK 朝鮮之聲",
-    "time": "0000-0100",
-    "frequency": "11645",
+    "station": "Radyo Pilipinas World Service",
+    "time": "1000-1130",
+    "frequency": "17750",
     "language": "英語",
-    "target": "中東北非",
+    "target": "",
     "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "tags": []
   },
   {
-    "station": "VOK 朝鮮之聲",
-    "time": "0200-0300",
-    "frequency": "13760",
+    "station": "Radyo Pilipinas World Service",
+    "time": "1000-1130",
+    "frequency": "21720",
     "language": "英語",
-    "target": "歐洲",
+    "target": "",
     "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "tags": []
   },
   {
-    "station": "VOK 朝鮮之聲",
-    "time": "0200-0300",
-    "frequency": "15245",
+    "station": "RTM Sabah VFM",
+    "time": "1200-1500",
+    "frequency": "11885",
     "language": "英語",
-    "target": "歐洲",
+    "target": "",
     "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0300-0400",
-    "frequency": "7210",
-    "language": "英語",
-    "target": "南非",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0300-0400",
-    "frequency": "11910",
-    "language": "英語",
-    "target": "南非",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0300-0400",
-    "frequency": "9875",
-    "language": "英語",
-    "target": "中東北非",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0300-0400",
-    "frequency": "11635",
-    "language": "英語",
-    "target": "中東北非",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0500-0600",
-    "frequency": "13760",
-    "language": "英語",
-    "target": "歐洲",
-    "remarks": "13760播出異常",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "0500-0600",
-    "frequency": "15245",
-    "language": "英語",
-    "target": "歐洲",
-    "remarks": "13760播出異常",
-    "tags": [
-      "外語",
-      "英語"
-    ]
+    "tags": []
   },
   {
     "station": "VOK 朝鮮之聲",
     "time": "1200-1300",
     "frequency": "7220",
     "language": "英語",
-    "target": "對華/全球",
-    "remarks": "ND全向",
+    "target": "ND全向",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7228,8 +2598,8 @@
     "time": "1200-1300",
     "frequency": "9445",
     "language": "英語",
-    "target": "對華/全球",
-    "remarks": "ND全向",
+    "target": "ND全向",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7240,43 +2610,7 @@
     "time": "1200-1300",
     "frequency": "9730",
     "language": "英語",
-    "target": "對華/全球",
-    "remarks": "ND全向",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1200-1300",
-    "frequency": "11735",
-    "language": "英語",
-    "target": "拉美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1200-1300",
-    "frequency": "13760",
-    "language": "英語",
-    "target": "拉美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1200-1300",
-    "frequency": "15180",
-    "language": "英語",
-    "target": "拉美",
+    "target": "ND全向",
     "remarks": "",
     "tags": [
       "外語",
@@ -7312,8 +2646,8 @@
     "time": "1400-1500",
     "frequency": "7220",
     "language": "英語",
-    "target": "對華/全球",
-    "remarks": "ND全向",
+    "target": "ND全向",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7324,8 +2658,8 @@
     "time": "1400-1500",
     "frequency": "9445",
     "language": "英語",
-    "target": "對華/全球",
-    "remarks": "ND全向",
+    "target": "ND全向",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7336,8 +2670,8 @@
     "time": "1400-1500",
     "frequency": "9730",
     "language": "英語",
-    "target": "對華/全球",
-    "remarks": "ND全向",
+    "target": "ND全向",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7361,126 +2695,6 @@
     "frequency": "13650",
     "language": "英語",
     "target": "東南亞",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1800-1900",
-    "frequency": "11710",
-    "language": "英語",
-    "target": "拉美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "1800-1900",
-    "frequency": "15180",
-    "language": "英語",
-    "target": "拉美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2100-2200",
-    "frequency": "13760",
-    "language": "英語",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2100-2200",
-    "frequency": "15245",
-    "language": "英語",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2100-2200",
-    "frequency": "9435",
-    "language": "英語",
-    "target": "北美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2100-2200",
-    "frequency": "11710",
-    "language": "英語",
-    "target": "北美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2300-0000",
-    "frequency": "13760",
-    "language": "英語",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2300-0000",
-    "frequency": "15245",
-    "language": "英語",
-    "target": "歐洲",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2300-0000",
-    "frequency": "9435",
-    "language": "英語",
-    "target": "北美",
-    "remarks": "",
-    "tags": [
-      "外語",
-      "英語"
-    ]
-  },
-  {
-    "station": "VOK 朝鮮之聲",
-    "time": "2300-0000",
-    "frequency": "11710",
-    "language": "英語",
-    "target": "北美",
     "remarks": "",
     "tags": [
       "外語",
@@ -7540,8 +2754,8 @@
     "time": "1930-2000",
     "frequency": "9840",
     "language": "英語",
-    "target": "日本/華南",
-    "remarks": "發射角57度",
+    "target": "",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7552,8 +2766,8 @@
     "time": "1930-2000",
     "frequency": "12020",
     "language": "英語",
-    "target": "日本/華南",
-    "remarks": "發射角57度",
+    "target": "日本",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7564,8 +2778,8 @@
     "time": "2130-2200",
     "frequency": "9840",
     "language": "英語",
-    "target": "日本/華南",
-    "remarks": "發射角57度",
+    "target": "",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7576,8 +2790,8 @@
     "time": "2130-2200",
     "frequency": "12020",
     "language": "英語",
-    "target": "日本/華南",
-    "remarks": "發射角57度",
+    "target": "日本",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7586,10 +2800,10 @@
   {
     "station": "VOV 越南之聲",
     "time": "0000-0030",
-    "frequency": "9730",
+    "frequency": "9840",
     "language": "英語",
-    "target": "歐洲",
-    "remarks": "發射角320度",
+    "target": "",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7601,7 +2815,7 @@
     "frequency": "11885",
     "language": "英語",
     "target": "歐洲",
-    "remarks": "發射角320度",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7610,10 +2824,10 @@
   {
     "station": "VOV 越南之聲",
     "time": "0300-0330",
-    "frequency": "9730",
+    "frequency": "9840",
     "language": "英語",
-    "target": "歐洲",
-    "remarks": "發射角320度",
+    "target": "",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
@@ -7625,21 +2839,10 @@
     "frequency": "11885",
     "language": "英語",
     "target": "歐洲",
-    "remarks": "發射角320度",
+    "remarks": "",
     "tags": [
       "外語",
       "英語"
-    ]
-  },
-  {
-    "station": "Bible Voice Broadcasting",
-    "time": "2000-2045",
-    "frequency": "17670",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周六",
-    "tags": [
-      "宗教"
     ]
   },
   {
@@ -7648,73 +2851,7 @@
     "frequency": "9340",
     "language": "英語",
     "target": "對華",
-    "remarks": "周一二",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "Bible Voice Broadcasting",
-    "time": "2100-2115",
-    "frequency": "9340",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "Reach Beyond Australia 超越電台",
-    "time": "1745-1800",
-    "frequency": "11925",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周二至四",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "Reach Beyond Australia 超越電台",
-    "time": "2030-2100",
-    "frequency": "11900",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周日",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "Reach Beyond Australia 超越電台",
-    "time": "2045-2100",
-    "frequency": "15460",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周一三四五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "Reach Beyond Australia 超越電台",
-    "time": "2145-2200",
-    "frequency": "15460",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周一三四五",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "Reach Beyond Australia 超越電台",
-    "time": "2230-2245",
-    "frequency": "11870",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周六日",
+    "remarks": "周一",
     "tags": [
       "宗教"
     ]
@@ -7724,8 +2861,85 @@
     "time": "0630-0700",
     "frequency": "17650",
     "language": "英語",
-    "target": "對華",
+    "target": "",
     "remarks": "周二",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "Reach Beyond Australia 超越電台",
+    "time": "1845-1900",
+    "frequency": "11650",
+    "language": "英語",
+    "target": "",
+    "remarks": "周二至四",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "Reach Beyond Australia 超越電台",
+    "time": "2030-2100",
+    "frequency": "15400",
+    "language": "英語",
+    "target": "",
+    "remarks": "周日",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "Reach Beyond Australia 超越電台",
+    "time": "2045-2100",
+    "frequency": "11900",
+    "language": "英語",
+    "target": "",
+    "remarks": "周一、周三至五",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "Reach Beyond Australia 超越電台",
+    "time": "2130-2200",
+    "frequency": "15400",
+    "language": "英語",
+    "target": "",
+    "remarks": "周六日",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "Reach Beyond Australia 超越電台",
+    "time": "2145-2200",
+    "frequency": "11900",
+    "language": "英語",
+    "target": "",
+    "remarks": "",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "TWR 環球廣播電台",
+    "time": "0830-0900",
+    "frequency": "12120",
+    "language": "英語",
+    "target": "",
+    "remarks": "周一至五; BOC",
+    "tags": [
+      "宗教"
+    ]
+  },
+  {
+    "station": "TWR 環球廣播電台",
+    "time": "1830-1900",
+    "frequency": "11965",
+    "language": "英語",
+    "target": "",
+    "remarks": "周日; KNX",
     "tags": [
       "宗教"
     ]
@@ -7733,9 +2947,9 @@
   {
     "station": "TWR 環球廣播電台",
     "time": "1930-1945",
-    "frequency": "9910",
+    "frequency": "15310",
     "language": "英語",
-    "target": "對華",
+    "target": "",
     "remarks": "周日",
     "tags": [
       "宗教"
@@ -7743,22 +2957,11 @@
   },
   {
     "station": "TWR 環球廣播電台",
-    "time": "2000-2030",
-    "frequency": "15230",
+    "time": "1930-2000",
+    "frequency": "15460",
     "language": "英語",
-    "target": "對華",
-    "remarks": "周六, DRM",
-    "tags": [
-      "宗教"
-    ]
-  },
-  {
-    "station": "TWR 環球廣播電台",
-    "time": "2015-2045",
-    "frequency": "12040",
-    "language": "英語",
-    "target": "對華",
-    "remarks": "周一至五",
+    "target": "",
+    "remarks": "周一至五; KNX",
     "tags": [
       "宗教"
     ]
@@ -7768,7 +2971,7 @@
     "time": "1600-1700",
     "frequency": "9695",
     "language": "英語",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -7779,7 +2982,7 @@
     "time": "1800-1900",
     "frequency": "9580",
     "language": "英語",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -7790,7 +2993,7 @@
     "time": "2000-2100",
     "frequency": "7355",
     "language": "英語",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -7801,7 +3004,7 @@
     "time": "2000-2100",
     "frequency": "9795",
     "language": "英語",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
@@ -7812,7 +3015,7 @@
     "time": "2200-2300",
     "frequency": "9580",
     "language": "英語",
-    "target": "對華",
+    "target": "",
     "remarks": "",
     "tags": [
       "宗教"
