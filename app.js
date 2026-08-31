@@ -12,14 +12,80 @@ const listTitle = document.getElementById('listTitle');
 const listCount = document.getElementById('listCount');
 const currentClock = document.getElementById('currentClock');
 const refreshBtn = document.getElementById('refreshBtn');
-
 const tagSelect = document.getElementById('tagSelect');
 const excludeEnabled = document.getElementById('excludeEnabled');
 const excludeInput = document.getElementById('excludeInput');
 const advancedFilterCount = document.getElementById('advancedFilterCount');
 
 // ==========================================
-// 2. 嚴格過濾雜訊項目
+// 2. 時區換算與偏移植計算 (UTC+8 台北時間基準)
+// ==========================================
+// 取得使用者裝置與台北時間 (UTC+8) 的分鐘時差
+function getLocalOffsetMinutesFromTaipei() {
+  const now = new Date();
+  
+  // 取得裝置當前本地時間分鐘數
+  const localMins = now.getHours() * 60 + now.getMinutes();
+
+  // 透過 Intl API 精準解析當前「台北 (Asia/Taipei)」的真實鐘點與分鐘
+  const tpeFormatter = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Taipei',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
+  
+  const parts = tpeFormatter.formatToParts(now);
+  const tpeH = parseInt(parts.find(p => p.type === 'hour').value, 10);
+  const tpeM = parseInt(parts.find(p => p.type === 'minute').value, 10);
+  const tpeMins = tpeH * 60 + tpeM;
+
+  let diff = localMins - tpeMins;
+  // 處理跨日循環邊界 (-1440 ~ +1440)
+  if (diff > 720) diff -= 1440;
+  if (diff < -720) diff += 1440;
+  
+  return diff;
+}
+
+// 將 4 碼數字時間 (如 0830) 加上分鐘偏移並轉回 4 碼字串
+function shiftHHMM(hhmmInt, diffMins) {
+  const h = Math.floor(hhmmInt / 100);
+  const m = hhmmInt % 100;
+  let total = h * 60 + m + diffMins;
+
+  total = ((total % 1440) + 1440) % 1440; // 循環 24 小時
+
+  const newH = Math.floor(total / 60);
+  const newM = total % 60;
+  return String(newH).padStart(2, '0') + String(newM).padStart(2, '0');
+}
+
+// 將電台原始時段 (UTC+8) 轉換為本地時區時段字串
+function convertTimeToLocal(timeStr) {
+  if (!timeStr) return '';
+  const match = String(timeStr).match(/(\d{4})\s*-\s*(\d{4})/);
+  if (!match || match.length < 3) return timeStr;
+
+  const diffMins = getLocalOffsetMinutesFromTaipei();
+  if (diffMins === 0) return timeStr; // 位於 UTC+8 則不變
+
+  const startLocal = shiftHHMM(parseInt(match[1], 10), diffMins);
+  const endLocal = shiftHHMM(parseInt(match[2], 10), diffMins);
+
+  // 替換原字串中的時間部分，保留備註
+  return timeStr.replace(/\d{4}\s*-\s*\d{4}/, `${startLocal}-${endLocal}`);
+}
+
+// 取得電台項目在本地時區對應的純時段 (供比對使用)
+function getItemLocalTime(item) {
+  if (item._localTime) return item._localTime;
+  item._localTime = convertTimeToLocal(item.time);
+  return item._localTime;
+}
+
+// ==========================================
+// 3. 嚴格過濾雜訊項目
 // ==========================================
 function isValidItem(item) {
   if (!item || typeof item !== 'object') return false;
@@ -33,7 +99,7 @@ function isValidItem(item) {
 }
 
 // ==========================================
-// 3. 時間轉換、區間交集（重疊）匹配邏輯
+// 4. 時間轉換、區間交集（重疊）匹配邏輯
 // ==========================================
 function getCurrentHHMM() {
   const now = new Date();
@@ -58,6 +124,7 @@ function isPointInTime(timeStr, targetNum) {
   const r = parseTimeRange(timeStr);
   if (!r) return false;
 
+  // 跨午夜判斷 (如 2300-0100)
   if (r.start > r.end) {
     return targetNum >= r.start || targetNum <= r.end;
   }
@@ -99,12 +166,14 @@ function matchCriteria(item, tVal, lVal, sVal, currentNum) {
   let matchL = true;
   let matchS = true;
 
+  const localTime = getItemLocalTime(item);
+
   if (tVal === 'AUTO') {
-    matchT = isPointInTime(item.time, currentNum);
+    matchT = isPointInTime(localTime, currentNum);
   } else if (tVal === 'ALL') {
     matchT = true;
   } else {
-    matchT = isTimeRangeOverlap(tVal, item.time);
+    matchT = isTimeRangeOverlap(tVal, localTime);
   }
 
   if (lVal !== 'ALL') {
@@ -130,22 +199,13 @@ function getLangPriority(lang) {
   return 3;
 }
 
-// 載入tags
 function getItemTags(item) {
   if (Array.isArray(item.tags)) {
-    return item.tags
-      .map(tag => String(tag).trim())
-      .filter(Boolean);
+    return item.tags.map(tag => String(tag).trim()).filter(Boolean);
   }
-
-  // 容錯：若某些舊資料仍是字串，也能正常使用。
   if (typeof item.tags === 'string') {
-    return item.tags
-      .split(',')
-      .map(tag => tag.trim())
-      .filter(Boolean);
+    return item.tags.split(',').map(tag => tag.trim()).filter(Boolean);
   }
-
   return [];
 }
 
@@ -157,7 +217,6 @@ function getTagPriority(tag) {
     '宗教': 4,
     'DX追蹤': 5
   };
-
   return priority[tag] ?? 99;
 }
 
@@ -174,36 +233,25 @@ function getExcludedKeywords() {
 
 function isExcludedByStation(item) {
   const keywords = getExcludedKeywords();
-
   if (keywords.length === 0) {
     return false;
   }
-
   const station = String(item.station || '').toLowerCase();
   return keywords.some(keyword => station.includes(keyword));
 }
 
 function updateAdvancedFilterCount() {
   if (!advancedFilterCount) return;
-
   let count = 0;
-
-  if (tagSelect && tagSelect.value !== 'ALL') {
-    count += 1;
-  }
-
-  if (getExcludedKeywords().length > 0) {
-    count += 1;
-  }
-
+  if (tagSelect && tagSelect.value !== 'ALL') count += 1;
+  if (getExcludedKeywords().length > 0) count += 1;
   advancedFilterCount.textContent = count > 0 ? `已啟用 ${count} 項` : '';
 }
 
 // ==========================================
-// 4. UI 初始化與選項生成 (普通話/英語 置頂)
+// 5. UI 初始化與選項生成 (24整時段 + 語言/電台/分類)
 // ==========================================
 function initFilters() {
-  const timeRanges = new Map();
   const langs = new Set();
   const stations = new Set();
   const tags = new Set();
@@ -211,54 +259,27 @@ function initFilters() {
   radioData.forEach(item => {
     if (!isValidItem(item)) return;
 
-    const r = parseTimeRange(item.time);
-    if (r && !timeRanges.has(r.raw)) {
-      timeRanges.set(r.raw, r.start);
-    }
-
     if (item.language && String(item.language).trim()) langs.add(String(item.language).trim());
     if (item.station && String(item.station).trim()) stations.add(String(item.station).trim());
-
     getItemTags(item).forEach(tag => tags.add(tag));
   });
 
-  // 1. 時段選單
-  const sortedTimeRanges = Array.from(timeRanges.entries()).sort((a, b) => a[1] - b[1]);
-
-  timeSelect.innerHTML = '';
-  const optAuto = document.createElement('option');
-  optAuto.value = 'AUTO';
-  optAuto.textContent = '現在時間 (自動匹配)';
-  timeSelect.appendChild(optAuto);
-
-  const optAllTime = document.createElement('option');
-  optAllTime.value = 'ALL';
-  optAllTime.textContent = '全部時段';
-  timeSelect.appendChild(optAllTime);
-  
+  // 1. 時段選單 (固定 24 組整時段)
   timeSelect.innerHTML = `
-    <option value="AUTO">現在時間（自動匹配）</option>
+    <option value="AUTO">現在時間 (自動匹配)</option>
     <option value="ALL">全部時段</option>
   `;
-  
-  for (let hour = 0; hour < 24; hour += 1) {
-      const start = String(hour).padStart(2, '0') + '00';
-      const end = String(hour + 1).padStart(2, '0') + '00';
 
-      const option = document.createElement('option');
-      option.value = `${start}-${end}`;
-      option.textContent = `${start}-${end}`;
-      timeSelect.appendChild(option);
+  for (let hour = 0; hour < 24; hour += 1) {
+    const start = String(hour).padStart(2, '0') + '00';
+    const end = String(hour + 1).padStart(2, '0') + '00';
+    const option = document.createElement('option');
+    option.value = `${start}-${end}`;
+    option.textContent = `${start}-${end}`;
+    timeSelect.appendChild(option);
   }
 
-  //sortedTimeRanges.forEach(([rawTime]) => {
-  //  const opt = document.createElement('option');
-  //  opt.value = rawTime;
-  //  opt.textContent = rawTime;
-  //  timeSelect.appendChild(opt);
-  //});
-
-  // 2. 語言選單 (普通話系列 -> 英語 -> 其餘語言)
+  // 2. 語言選單
   const sortedLangs = Array.from(langs).sort((a, b) => {
     const pA = getLangPriority(a);
     const pB = getLangPriority(b);
@@ -282,21 +303,17 @@ function initFilters() {
     opt.textContent = s;
     stationSelect.appendChild(opt);
   });
-  
+
+  // 4. 分類標籤選單
   if (tagSelect) {
     const sortedTags = Array.from(tags).sort((a, b) => {
       const priorityA = getTagPriority(a);
       const priorityB = getTagPriority(b);
-  
-      if (priorityA !== priorityB) {
-        return priorityA - priorityB;
-      }
-  
+      if (priorityA !== priorityB) return priorityA - priorityB;
       return a.localeCompare(b, 'zh-Hant');
     });
-  
+
     tagSelect.innerHTML = '<option value="ALL">全部分類</option>';
-  
     sortedTags.forEach(tag => {
       const option = document.createElement('option');
       option.value = tag;
@@ -311,13 +328,14 @@ function renderList(data) {
   const validList = data.filter(isValidItem);
 
   validList.forEach(item => {
+    const displayTime = getItemLocalTime(item); // 自動顯示換算後的時區時間
     const card = document.createElement('div');
     card.className = 'station-card';
     card.innerHTML = `
       <div class="station-info">
         <div class="station-name">${item.station || '未知電台'}</div>
         <div class="station-meta">
-          <span class="meta-tag">🕒 ${item.time || '未指定'}</span>
+          <span class="meta-tag">🕒 ${displayTime || '未指定'}</span>
           <span class="meta-tag">🗣️ ${item.language || '未註明'}</span>
           ${item.target ? `<span class="meta-tag">📍 ${item.target}</span>` : ''}
           ${item.remarks ? `<span class="meta-tag">📝 ${item.remarks}</span>` : ''}
@@ -334,7 +352,7 @@ function renderList(data) {
 }
 
 // ==========================================
-// 5. 篩選判斷與查無結果處理
+// 6. 篩選判斷與查無結果處理
 // ==========================================
 function applyFilter() {
   const selectedTime = timeSelect.value;
@@ -344,28 +362,16 @@ function applyFilter() {
   const currentNum = getCurrentHHMM();
 
   const validData = radioData.filter(isValidItem);
-  //const filtered = validData.filter(item => matchCriteria(item, selectedTime, selectedLang, selectedStation, currentNum));
+
   const filtered = validData.filter(item => {
-    const matchesBasic = matchCriteria(
-      item,
-      selectedTime,
-      selectedLang,
-      selectedStation,
-      currentNum
-    );
-  
-    const matchesTag = (
-      selectedTag === 'ALL' ||
-      getItemTags(item).includes(selectedTag)
-    );
-  
+    const matchesBasic = matchCriteria(item, selectedTime, selectedLang, selectedStation, currentNum);
+    const matchesTag = (selectedTag === 'ALL' || getItemTags(item).includes(selectedTag));
     return matchesBasic && matchesTag && !isExcludedByStation(item);
   });
 
   if (filtered.length === 0) {
     alertBanner.style.display = 'block';
     listTitle.textContent = '全部電台清單 (查無符合結果)';
-    //renderList(validData);
     const fallbackData = validData.filter(item => !isExcludedByStation(item));
     renderList(fallbackData);
   } else {
@@ -379,6 +385,7 @@ function applyFilter() {
     }
     renderList(filtered);
   }
+
   updateAdvancedFilterCount();
 }
 
@@ -386,16 +393,21 @@ function updateClock() {
   const now = new Date();
   const hh = String(now.getHours()).padStart(2, '0');
   const mm = String(now.getMinutes()).padStart(2, '0');
-  currentClock.textContent = `目前時間：${hh}:${mm}`;
+  
+  // 取得裝置當地時區名稱
+  const userTz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+  const tzLabel = userTz ? ` (${userTz.replace(/_/g, ' ')})` : '';
+
+  currentClock.textContent = `目前時間：${hh}:${mm}${tzLabel}`;
 }
 
 // ==========================================
-// 6. 資料載入
+// 7. 資料載入
 // ==========================================
 async function loadData() {
   try {
     const jsonUrl = new URL('data.json', window.location.href).href;
-    const response = await fetch(jsonUrl);
+    const response = await fetch(jsonUrl, { cache: 'no-cache' });
     
     if (!response.ok) {
       throw new Error(`HTTP ${response.status} (${response.statusText})`);
@@ -419,7 +431,7 @@ async function loadData() {
 }
 
 // ==========================================
-// 7. 三向智慧交叉連動事件
+// 8. 選單連動與事件綁定
 // ==========================================
 timeSelect.addEventListener('change', () => {
   const tVal = timeSelect.value;
@@ -508,7 +520,6 @@ langSelect.addEventListener('change', () => {
   applyFilter();
 });
 
-// tags 相關
 if (tagSelect) {
   tagSelect.addEventListener('change', applyFilter);
 }
@@ -516,36 +527,15 @@ if (tagSelect) {
 if (excludeEnabled && excludeInput) {
   excludeEnabled.addEventListener('change', () => {
     excludeInput.disabled = !excludeEnabled.checked;
-
     if (!excludeEnabled.checked) {
       excludeInput.value = '';
     }
-
     applyFilter();
   });
 
   excludeInput.addEventListener('input', applyFilter);
 }
 
-// input 框動作
-if (excludeEnabled && excludeInput) {
-  excludeEnabled.addEventListener('change', () => {
-    excludeInput.disabled = !excludeEnabled.checked;
-
-    if (!excludeEnabled.checked) {
-      excludeInput.value = '';
-    }
-
-    applyFilter();
-  });
-
-  excludeInput.addEventListener('input', applyFilter);
-}
-
-
-// ==========================================
-// 8. 重新整理
-// ==========================================
 if (refreshBtn) {
   refreshBtn.addEventListener('click', () => {
     window.location.reload();
